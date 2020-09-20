@@ -15,7 +15,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apps/core17",
+            "outputPath": "dist/core17/browser",
             "index": "apps/core17/src/index.html",
             "main": "apps/core17/src/main.ts",
             "polyfills": "apps/core17/src/polyfills.ts",
@@ -79,7 +79,8 @@
           "options": {
             "tsConfig": [
               "apps/core17/tsconfig.app.json",
-              "apps/core17/tsconfig.spec.json"
+              "apps/core17/tsconfig.spec.json",
+              "apps/core17/tsconfig.server.json"
             ],
             "exclude": ["**/node_modules/**", "!apps/core17/**/*"]
           }
@@ -91,6 +92,60 @@
             "tsConfig": "apps/core17/tsconfig.spec.json",
             "passWithNoTests": true,
             "setupFile": "apps/core17/src/test-setup.ts"
+          }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/core17/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "externalDependencies": [
+              "@nestjs/microservices",
+              "@nestjs/microservices/microservices-module",
+              "@nestjs/websockets",
+              "@nestjs/websockets/socket-module",
+              "cache-manager"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media",
+              "fileReplacements": [
+                {
+                  "replace": "apps/core17/src/environments/environment.ts",
+                  "with": "apps/core17/src/environments/environment.prod.ts"
+                }
+              ],
+              "sourceMap": false,
+              "optimization": false
+            }
+          }
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "options": {
+            "browserTarget": "core17:build",
+            "serverTarget": "core17:server"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "core17:build:production",
+              "serverTarget": "core17:server:production"
+            }
+          }
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "browserTarget": "core17:build:production",
+            "serverTarget": "core17:server:production",
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {}
           }
         }
       }
@@ -144,8 +199,8 @@
               "inspect": false,
               "fileReplacements": [
                 {
-                  "replace": "apps/api/src/environments/environment.ts",
-                  "with": "apps/api/src/environments/environment.prod.ts"
+                  "replace": "apps/core17/src/environments/environment.ts",
+                  "with": "apps/core17/src/environments/environment.prod.ts"
                 }
               ]
             }

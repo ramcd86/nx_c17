@@ -1,15 +1,17 @@
+
 import { Controller, Get } from '@nestjs/common';
 
-import { Message } from '@workspace/api-interfaces';
-
 import { AppService } from './app.service';
+// import { environment }
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(private readonly appService: AppService) {
+    console.log(environment);
+  }
 
   @Get('hello')
-  getData(): Message {
+  getData(): unknown {
     return this.appService.getData();
   }
 }
