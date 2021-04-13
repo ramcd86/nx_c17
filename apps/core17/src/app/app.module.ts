@@ -34,8 +34,8 @@ import { SharedModule } from './modules/shared/shared.module';
     TransferHttpCacheModule,
 
     RouterModule.forRoot([
-      { path: '', component: AppComponent, pathMatch: 'full' },
-    ]),
+    { path: '', component: AppComponent, pathMatch: 'full' },
+], { relativeLinkResolution: 'legacy' }),
     SharedModule
   ],
   bootstrap: [AppComponent]
