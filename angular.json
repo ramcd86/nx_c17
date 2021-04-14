@@ -305,5 +305,8 @@
       "unitTestRunner": "jest"
     }
   },
-  "defaultProject": "core17"
+  "defaultProject": "core17",
+  "angularCompilerOptions": {
+    "strictTemplates": true
+  }
 }
