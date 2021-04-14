@@ -12,7 +12,6 @@
     "start:api": "ng serve api",
     "prod:ssr": "ng build --prod && npm run serve:ssr",
     "build": "ng build",
-    "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
     "affected:apps": "nx affected:apps",
