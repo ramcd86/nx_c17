@@ -12,19 +12,13 @@ export class AppController {
   }
 
   getSingleSimpleStockData(stockName?: string): Observable<any> {
-    const headers = {
-      "x-rapidapi-key": "0df3986442msh2570fe324a1c315p188f34jsnd1eef6d5ce18",
-      "x-rapidapi-host": "alpha-vantage.p.rapidapi.com",
-      "useQueryString": true
-    }
-    const params = {
-      "function": "GLOBAL_QUOTE",
-      "symbol": "TSLA"
-    }
-    const url = "https://alpha-vantage.p.rapidapi.com/query"
-    return this._httpService.get(url, {
-      params,
-      headers
+    return this._httpService.get("https://coinranking1.p.rapidapi.com/coin/2",{
+      "method": "get",
+      "headers": {
+        "x-rapidapi-key": "0df3986442msh2570fe324a1c315p188f34jsnd1eef6d5ce18",
+        "x-rapidapi-host": "coinranking1.p.rapidapi.com",
+        "useQueryString": true
+      }
     })
   }
 
@@ -32,7 +26,7 @@ export class AppController {
 
   @Get('hello')
   getData(): unknown {
-    this.getSingleSimpleStockData().subscribe((res) => { console.log(res) }, (error) => { console.log(error) });
+    this.getSingleSimpleStockData().subscribe((res) => { console.log(res.data.data) }, (error) => { console.log(error) });
     return this.appService.getData();
   }
 
