@@ -1,11 +1,14 @@
 
 import { AppService } from './app.service';
-import { HttpModule, HttpService, Module } from '@nestjs/common';
+import { Module } from '@nestjs/common';
 import { AngularUniversalModule } from '@nestjs/ng-universal';
 import { join } from 'path';
-import { AppServerModule } from './../../../core17/src/main.server';
+
 import { AppController } from './app.controller';
-// import { HttpBaseService } from './services/httpbase.service';
+import { ServicesModule } from './services/services.module';
+
+// tslint:disable-next-line:nx-enforce-module-boundaries
+import { AppServerModule } from './../../../core17/src/main.server';
 
 @Module({
   imports: [
@@ -13,8 +16,7 @@ import { AppController } from './app.controller';
       bootstrap: AppServerModule,
       viewsPath: join(process.cwd(), 'dist/core17/browser')
     }),
-    HttpModule,
-    // HttpBaseService
+    ServicesModule
   ],
   providers: [AppService],
   controllers: [AppController]
