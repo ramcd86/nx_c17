@@ -6,7 +6,7 @@ export class HttpBaseService {
 
   constructor(private readonly _httpService: HttpService) {}
 
-  getSingleSimpleStockData(stockName?: string): Observable<any> {
+  getSingleSimpleStockData(stockId?: string): Observable<any> {
     return this._httpService.get("https://coinranking1.p.rapidapi.com/coin/2",{
       "method": "get",
       "headers": {

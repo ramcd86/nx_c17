@@ -13,7 +13,8 @@ export class AppController {
 
   @Get('hello')
   getData(): unknown {
-    this._httpBaseService.getSingleSimpleStockData().subscribe((res) => { console.log(res.data.data) }, (error) => { console.log(error) });
+    console.log(process.env.PORT)
+    // this._httpBaseService.getSingleSimpleStockData().subscribe((res) => { console.log(res.data.data) }, (error) => { console.log(error) });
     return this.appService.getData();
   }
 
