@@ -10,7 +10,7 @@
     "dev:ssr": "ng run core17:serve-ssr",
     "start:client": "ng serve",
     "start:api": "ng serve api",
-    "prod:ssr": "ng build --prod && npm run serve:ssr",
+    "prod:ssr": "ng build --prod && ng run core17:serve-ssr",
     "build": "ng build",
     "lint": "nx workspace-lint && ng lint",
     "e2e": "ng e2e",
