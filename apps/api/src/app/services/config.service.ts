@@ -1,13 +1,22 @@
-import { HttpService, Injectable } from '@nestjs/common';
-import { Observable } from 'rxjs';
+import { Injectable } from '@nestjs/common';
+
+export interface IGlobalConfig {
+  requestHeaderAuth: {
+    authKey: string;
+    authHostUrl: string;
+  };
+}
 
 @Injectable()
 export class ConfigService {
-
   constructor() {}
 
-  getConfig() {
-
+  getConfig(): IGlobalConfig {
+    return {
+      requestHeaderAuth: {
+        authKey: process.env.RAPIDAPI_AUTH_KEY,
+        authHostUrl: process.env.RAPIDAPI_HOST,
+      },
+    };
   }
-
 }
