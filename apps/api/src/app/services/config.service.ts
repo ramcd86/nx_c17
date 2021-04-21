@@ -1,11 +1,5 @@
 import { Injectable } from '@nestjs/common';
-
-export interface IGlobalConfig {
-  requestHeaderAuth: {
-    authKey: string;
-    authHostUrl: string;
-  };
-}
+import { IGlobalConfig } from '@workspace/api-interfaces';
 
 @Injectable()
 export class ConfigService {

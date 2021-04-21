@@ -1,10 +1,9 @@
 import { HttpService, Injectable } from '@nestjs/common';
-import { Observable } from 'rxjs';
+import {
+  ISimpleStockQuery,
+  ILocalRequestHeaders,
+} from '@workspace/api-interfaces';
 import { ConfigService } from './config.service';
-
-interface ILocalRequestHeaders {
-  [key: string]: string | boolean;
-}
 
 @Injectable()
 export class HttpBaseService {
@@ -15,18 +14,28 @@ export class HttpBaseService {
 
   getLocalHeaders(): ILocalRequestHeaders {
     return {
-      'x-rapidapi-key': this._configService.getConfig().requestHeaderAuth.authKey,
-      'x-rapidapi-host': this._configService.getConfig().requestHeaderAuth.authHostUrl,
-      'useQueryString': true,
-    }
+      'x-rapidapi-key': this._configService.getConfig().requestHeaderAuth
+        .authKey,
+      'x-rapidapi-host': this._configService.getConfig().requestHeaderAuth
+        .authHostUrl,
+      useQueryString: true,
+    };
   }
 
-  getSingleSimpleStockData(stockId = 1): Observable<any> {
-    return this._httpService.get(`${this._configService.getConfig().requestHeaderAuth.authHostUrl}/coin/${stockId}`, {
-      method: 'get',
-      headers: this.getLocalHeaders()
-    });
+  async getSingleSimpleStockData(stockId = 1): Promise<ISimpleStockQuery> {
+    return this._httpService
+      .get(
+        `https://${
+          this._configService.getConfig().requestHeaderAuth.authHostUrl
+        }/coin/${stockId}`,
+        {
+          method: 'get',
+          headers: this.getLocalHeaders(),
+        }
+      )
+      .toPromise()
+      .then((res) => res.data.data);
   }
 
-  // getGlobalCoinStats
+  getMarkets() {}
 }

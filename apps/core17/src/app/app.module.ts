@@ -1,20 +1,3 @@
-// import { BrowserModule } from '@angular/platform-browser';
-// import { NgModule } from '@angular/core';
-
-// import { AppComponent } from './app.component';
-// import { HttpClientModule } from '@angular/common/http';
-
-// @NgModule({
-//   declarations: [AppComponent],
-//   imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), HttpClientModule],
-//   providers: [],
-//   bootstrap: [AppComponent],
-// })
-// export class AppModule {}
-
-
-
-
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -33,11 +16,12 @@ import { SharedModule } from './modules/shared/shared.module';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     TransferHttpCacheModule,
 
-    RouterModule.forRoot([
-    { path: '', component: AppComponent, pathMatch: 'full' },
-], { relativeLinkResolution: 'legacy' }),
-    SharedModule
+    RouterModule.forRoot(
+      [{ path: '', component: AppComponent, pathMatch: 'full' }],
+      { relativeLinkResolution: 'legacy' }
+    ),
+    SharedModule,
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

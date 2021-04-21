@@ -1,25 +1,29 @@
+import { Controller, Get, Param } from '@nestjs/common';
 
-import { Controller, Get } from '@nestjs/common';
-
-import { AppService } from './app.service';
 import { HttpBaseService } from './services/httpbase.service';
+
+import { ISimpleStockQuery } from '@workspace/api-interfaces';
+
+const fs = require('fs');
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService,
-              private readonly _httpBaseService: HttpBaseService) {
-  }
-
+  constructor(private readonly _httpBaseService: HttpBaseService) {}
 
   @Get('hello')
-  getData(): unknown {
-    console.log(process.env.PORT)
-    // this._httpBaseService.getSingleSimpleStockData().subscribe((res) => { console.log(res.data.data) }, (error) => { console.log(error) });
-    return this.appService.getData();
+  getData(): Promise<ISimpleStockQuery> {
+    // fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
+    //   if (err) return console.log(err);
+    //   console.log('Hello World > helloworld.txt');
+    // });
+    return this._httpBaseService.getSingleSimpleStockData();
+  }
+
+  @Get('coin/:id')
+  getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {
+    return this._httpBaseService.getSingleSimpleStockData(+params.id);
   }
 
   @Get('test')
-  getTestData() {
-
-  }
+  getTestData() {}
 }

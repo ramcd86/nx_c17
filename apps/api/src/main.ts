@@ -1,11 +1,4 @@
-/**
- * This is not a production server yet!
- * This is only a minimal backend to get started.
- */
-
- require('dotenv').config()
-
-import { environment } from './../../../environments/environment';
+require('dotenv').config();
 
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';

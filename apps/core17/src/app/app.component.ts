@@ -12,12 +12,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
+  public data? = this.http.get<unknown>('/api/coin/2');
 
-  public data? = this.http.get<unknown>('/api/hello');
-  
-  constructor(private http: HttpClient) {
-  }
+  constructor(private http: HttpClient) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 }
