@@ -4,7 +4,23 @@
 
 export const environment = {
   production: false,
+  devBackend: {
+    apiPort: 3333,
+    apiUrl: 'localhost',
+    apiPrefix: 'api',
+  },
+  prodBackend: {
+    apiPort: 3333,
+    apiUrl: 'localhost',
+    apiPrefix: 'api',
+  }
 };
+
+export const getApiBase = (isProd?: boolean): string => isProd ?
+  `http://${environment.prodBackend.apiUrl}/${environment.prodBackend.apiPrefix}` :
+  `http://${environment.devBackend.apiUrl}:${environment.devBackend.apiPort}/${environment.devBackend.apiPrefix}`;
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file

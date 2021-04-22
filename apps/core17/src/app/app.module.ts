@@ -5,6 +5,11 @@ import { RouterModule } from '@angular/router';
 import { TransferHttpCacheModule } from '@nguniversal/common';
 import { AppComponent } from './app.component';
 import { SharedModule } from './modules/shared/shared.module';
+import { ComponentsModule } from './components/components.module';
+import { BASE_URL } from './app.tokens';
+import { getApiBase } from '../environments/environment';
+
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,6 +26,13 @@ import { SharedModule } from './modules/shared/shared.module';
       { relativeLinkResolution: 'legacy' }
     ),
     SharedModule,
+    ComponentsModule
+  ],
+  providers: [
+    {
+      provide: BASE_URL,
+      useValue: getApiBase()
+    }
   ],
   bootstrap: [AppComponent],
 })

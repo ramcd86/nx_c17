@@ -2,7 +2,7 @@ import { Controller, Get, Param } from '@nestjs/common';
 
 import { HttpBaseService } from './services/httpbase.service';
 
-import { ISimpleStockQuery } from '@workspace/api-interfaces';
+import { ICoinAhead, ICoinQuery, ISimpleStockQuery } from '@workspace/api-interfaces';
 
 const fs = require('fs');
 
@@ -20,8 +20,36 @@ export class AppController {
   }
 
   @Get('coin/:id')
-  getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {
+  async getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {
+    // this._httpBaseService.getCoinData().then((res) => {
+    //   console.log('RES!', res)
+    //   fs.writeFile('helloworld.txt', JSON.stringify(res), function (err) {
+    //     if (err) return console.log(err);
+    //     console.log('Hello World > helloworld.txt');
+    //   });
+    // })
     return this._httpBaseService.getSingleSimpleStockData(+params.id);
+  }
+
+  @Get('coins')
+  async getCoins(): Promise<ICoinQuery> {
+    return this._httpBaseService.getCoinData();
+  }
+
+  @Get('coins-ahead')
+  async getCoinsAhead(): Promise<ICoinAhead[]> {
+    const coinsForTypeHead: ICoinAhead[] = [];
+    await this._httpBaseService.getCoinData().then(coins => {
+     coins.coins.forEach(individualCoin => coinsForTypeHead.push({
+        id: individualCoin.id,
+        symbol: individualCoin.symbol,
+        name: individualCoin.name,
+        price: individualCoin.price,
+        rank: individualCoin.rank
+      }))
+    })
+    console.log(coinsForTypeHead)
+    return coinsForTypeHead;
   }
 
   @Get('test')

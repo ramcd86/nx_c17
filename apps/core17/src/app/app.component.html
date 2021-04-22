@@ -6,5 +6,8 @@
   />
 </div>
 
-ed
-<div>Message: {{ data | async | json }} !!</div>
+<workspace-typeahead [coinsAhead]="coinsAhead$ | async"></workspace-typeahead>
+
+<!--<div>Message: {{ coinsAhead$ | async | json }} !!</div>-->
+
+

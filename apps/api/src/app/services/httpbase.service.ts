@@ -1,7 +1,7 @@
 import { HttpService, Injectable } from '@nestjs/common';
 import {
   ISimpleStockQuery,
-  ILocalRequestHeaders,
+  ILocalRequestHeaders, ICoinQuery
 } from '@workspace/api-interfaces';
 import { ConfigService } from './config.service';
 
@@ -34,8 +34,21 @@ export class HttpBaseService {
         }
       )
       .toPromise()
-      .then((res) => res.data.data);
+      .then((res) => res.data.data as ISimpleStockQuery);
   }
 
-  getMarkets() {}
+  async getCoinData(): Promise<ICoinQuery> {
+    return this._httpService
+      .get(
+        `https://${
+          this._configService.getConfig().requestHeaderAuth.authHostUrl
+        }/coins`,
+        {
+          method: 'get',
+          headers: this.getLocalHeaders(),
+        }
+      )
+      .toPromise()
+      .then((res) => res.data.data as ICoinQuery);
+  }
 }

@@ -11,6 +11,7 @@ async function bootstrap() {
   const globalPrefix = process.env.GLOBAL_PREFIX;
   const port = process.env.PORT;
 
+  app.enableCors();
   app.setGlobalPrefix(globalPrefix);
 
   await app.listen(port, () => {

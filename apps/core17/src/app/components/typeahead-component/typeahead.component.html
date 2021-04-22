@@ -1,0 +1,7 @@
+<div *ngIf="coinsAhead; else coinsAheadLoading">
+  <div *ngFor="let coin of coinsAhead">
+    {{coin.id}}, {{coin.name}}, {{coin.symbol}}, {{coin.price}}, {{coin.rank}}
+  </div>
+</div>
+
+<ng-template #coinsAheadLoading>Loading</ng-template>
