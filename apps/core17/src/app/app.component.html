@@ -1,13 +1,10 @@
-<div style="text-align: center;">
-  <h1>Welcome to core17!</h1>
-  <img
-    width="450"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png"
-  />
+<div class="app">
+
+  <workspace-typeahead [coinsAhead]="coinsAhead$ | async" (selectedCoinId)="navigateToCoin($event)"></workspace-typeahead>
+
+  <router-outlet></router-outlet>
 </div>
 
-<workspace-typeahead [coinsAhead]="coinsAhead$ | async"></workspace-typeahead>
+
 
 <!--<div>Message: {{ coinsAhead$ | async | json }} !!</div>-->
-
-

@@ -2,7 +2,11 @@ import { Controller, Get, Param } from '@nestjs/common';
 
 import { HttpBaseService } from './services/httpbase.service';
 
-import { ICoinAhead, ICoinQuery, ISimpleStockQuery } from '@workspace/api-interfaces';
+import {
+  ICoinAhead,
+  ICoinQuery,
+  ISimpleStockQuery,
+} from '@workspace/api-interfaces';
 
 const fs = require('fs');
 
@@ -39,16 +43,17 @@ export class AppController {
   @Get('coins-ahead')
   async getCoinsAhead(): Promise<ICoinAhead[]> {
     const coinsForTypeHead: ICoinAhead[] = [];
-    await this._httpBaseService.getCoinData().then(coins => {
-     coins.coins.forEach(individualCoin => coinsForTypeHead.push({
-        id: individualCoin.id,
-        symbol: individualCoin.symbol,
-        name: individualCoin.name,
-        price: individualCoin.price,
-        rank: individualCoin.rank
-      }))
-    })
-    console.log(coinsForTypeHead)
+    await this._httpBaseService.getCoinData().then((coins) => {
+      coins.coins.forEach((individualCoin) =>
+        coinsForTypeHead.push({
+          id: individualCoin.id,
+          symbol: individualCoin.symbol,
+          name: individualCoin.name,
+          price: individualCoin.price,
+          rank: individualCoin.rank,
+        })
+      );
+    });
     return coinsForTypeHead;
   }
 

@@ -8,8 +8,11 @@ import { SharedModule } from './modules/shared/shared.module';
 import { ComponentsModule } from './components/components.module';
 import { BASE_URL } from './app.tokens';
 import { getApiBase } from '../environments/environment';
-
-
+import { PagesModule } from './pages/pages.module';
+import { HomePageResolver } from './pages/home-page/home-page.resolver';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { CoinPageComponent } from './pages/coin-page/coin-page.component';
+import { CoinPageResolver } from './pages/coin-page/coin-page.resolver';
 
 @NgModule({
   declarations: [AppComponent],
@@ -21,18 +24,32 @@ import { getApiBase } from '../environments/environment';
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     TransferHttpCacheModule,
 
+    SharedModule,
+    ComponentsModule,
+    PagesModule,
     RouterModule.forRoot(
-      [{ path: '', component: AppComponent, pathMatch: 'full' }],
+      [
+        {
+          path: '',
+          component: HomePageComponent,
+          resolve: { content: HomePageResolver },
+          pathMatch: 'full',
+        },
+        {
+          path: 'coin/:id',
+          component: CoinPageComponent,
+          resolve: { content: CoinPageResolver },
+          pathMatch: 'full',
+        },
+      ],
       { relativeLinkResolution: 'legacy' }
     ),
-    SharedModule,
-    ComponentsModule
   ],
   providers: [
     {
       provide: BASE_URL,
-      useValue: getApiBase()
-    }
+      useValue: getApiBase(),
+    },
   ],
   bootstrap: [AppComponent],
 })

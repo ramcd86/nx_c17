@@ -1,12 +1,8 @@
-// import { Component } from '@angular/core';
-// import { HttpClient } from '@angular/common/http';
-// import { Message } from '@workspace/api-interfaces';
 
-import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { BASE_URL } from './app.tokens';
+
+import { Component, OnInit} from '@angular/core';
 import { HttpService } from './modules/shared/httpservice.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'workspace-root',
@@ -17,10 +13,13 @@ export class AppComponent implements OnInit {
 
   public readonly coinsAhead$ = this._httpService.getCoinTypeAheadValues()
 
-  constructor(
-              private _httpService: HttpService,
-              @Inject(BASE_URL) public baseUrl: string) {}
+  constructor(private _httpService: HttpService,
+              private _router: Router) {}
 
   ngOnInit() {
+  }
+
+  navigateToCoin(id: number | string) {
+    this._router.navigate(['coin', id])
   }
 }
