@@ -1,27 +1,19 @@
-import { Controller, Get, Param } from '@nestjs/common';
-
-import { HttpBaseService } from './services/httpbase.service';
+import { Controller, Get, Inject, Param } from '@nestjs/common';
 
 import {
   ICoinAhead,
   ICoinQuery,
   ISimpleStockQuery,
 } from '@workspace/api-interfaces';
+import { HttpFactoryClass } from './services/httpfactory.class';
 
 const fs = require('fs');
 
 @Controller()
 export class AppController {
-  constructor(private readonly _httpBaseService: HttpBaseService) {}
-
-  @Get('hello')
-  getData(): Promise<ISimpleStockQuery> {
-    // fs.writeFile('helloworld.txt', 'Hello World!', function (err) {
-    //   if (err) return console.log(err);
-    //   console.log('Hello World > helloworld.txt');
-    // });
-    return this._httpBaseService.getSingleSimpleStockData();
-  }
+  constructor(
+    @Inject('httpBase') readonly _httpBaseService: HttpFactoryClass
+  ) {}
 
   @Get('coin/:id')
   async getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {

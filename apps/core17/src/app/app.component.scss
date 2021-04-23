@@ -1,2 +1,13 @@
 @import '../styles/variables';
 
+.app {
+  &__logo {
+    span {
+      display: inline-block;
+      font-size: 4rem;
+      font-weight: 900;
+      text-shadow: 0 7px 15px rgba(255, 218, 185, 0.1),
+        0 7px 15px rgba(7, 59, 76, 0.1);
+    }
+  }
+}

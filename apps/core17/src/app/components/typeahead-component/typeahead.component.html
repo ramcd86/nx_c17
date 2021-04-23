@@ -1,54 +1,56 @@
 <div class="row typeahead-component">
-  <div
-    class="col-12 typeahead-component__coin-selection--loaded"
-  >
-    <label>
-      Search for Coin
-      <input
-        type="text"
-        placeholder="test"
-        (keyup)="inputChange($event)"
-        class="typeahead-component__coin-input"
-      />
-    </label>
+  <div class="col-12 typeahead-component__coin-selection--loaded">
+    <div class="row">
+      <div class="typeahead-component__coin-input col-12">
+        <label>
+          <i class="fa fa-search" aria-hidden="true" data-tooltip="Search"></i>
+          <input
+            type="text"
+            placeholder="Search..."
+            (keyup)="inputChange($event)"
+            class=""
+          />
+        </label>
+      </div>
+    </div>
 
-    <div class="typeahead-component__results-container">
-<!--      <div class="row typeahead-component__individual-coin-row" (click)="selectedCoinId.emit(coin.id)">-->
-<!--        <div class="col-1">{{ coin.id }}</div>-->
-<!--        <div class="col-2">{{ coin.name }}</div>-->
-<!--        <div class="col-2">{{ coin.symbol }}</div>-->
-<!--        <div class="col-2">{{ coin.price }}</div>-->
-<!--        <div class="col-2">{{ coin.rank }}</div>-->
-<!--      </div>-->
-<!--    </div>-->
-      <div class="row typeahead-component__individual-coin-row">
-        <div class="col-1">1</div>
-        <div class="col-2">Bitcoin</div>
-        <div class="col-2">BTC</div>
-        <div class="col-2">345324875</div>
-        <div class="col-2">1</div>
+    <div
+      *ngIf="this.matchingCoins.length"
+      class="typeahead-component__results-wrapper"
+    >
+      <div class="typeahead-component__results-container">
+        <div *ngFor="let coin of this.matchingCoins">
+          <div
+            class="row typeahead-component__individual-coin-row"
+            (click)="selectedCoinId.emit(coin.id)"
+          >
+            <div class="col-4">
+              <i
+                class="fa fa-diamond"
+                aria-hidden="true"
+                data-tooltip="Name"
+              ></i>
+              {{ coin.name }} ({{ coin.symbol }})
+            </div>
+            <div class="col-4">
+              <i
+                class="fa fa-line-chart"
+                aria-hidden="true"
+                data-tooltip="Price"
+              ></i>
+              {{ coin.price }}
+            </div>
+            <div class="col-4">
+              <i
+                class="fa fa-arrows-v"
+                aria-hidden="true"
+                data-tooltip="Rank"
+              ></i>
+              {{ coin.rank }}
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row typeahead-component__individual-coin-row">
-        <div class="col-1">1</div>
-        <div class="col-2">Bitcoin</div>
-        <div class="col-2">BTC</div>
-        <div class="col-2">345324875</div>
-        <div class="col-2">1</div>
-      </div>
-      <div class="row typeahead-component__individual-coin-row">
-        <div class="col-1">1</div>
-        <div class="col-2">Bitcoin</div>
-        <div class="col-2">BTC</div>
-        <div class="col-2">345324875</div>
-        <div class="col-2">1</div>
-      </div>
-      <div class="row typeahead-component__individual-coin-row">
-        <div class="col-1">1</div>
-        <div class="col-2">Bitcoin</div>
-        <div class="col-2">BTC</div>
-        <div class="col-2">345324875</div>
-        <div class="col-2">1</div>
-      </div>
+    </div>
   </div>
-</div>
 </div>

@@ -1,16 +1,20 @@
 import { HttpService, Injectable } from '@nestjs/common';
 import {
   ISimpleStockQuery,
-  ILocalRequestHeaders, ICoinQuery
+  ILocalRequestHeaders,
+  ICoinQuery,
 } from '@workspace/api-interfaces';
 import { ConfigService } from './config.service';
+import { HttpFactoryClass } from './httpfactory.class';
 
 @Injectable()
-export class HttpBaseService {
+export class HttpBaseService extends HttpFactoryClass {
   constructor(
     private readonly _httpService: HttpService,
     private readonly _configService: ConfigService
-  ) {}
+  ) {
+    super();
+  }
 
   getLocalHeaders(): ILocalRequestHeaders {
     return {

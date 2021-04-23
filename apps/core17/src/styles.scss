@@ -1,11 +1,31 @@
 @import '../../../node_modules/bootstrap';
 @import 'styles/variables';
+@import 'styles/mixins';
+@import 'node_modules/font-awesome/scss/font-awesome';
 
-body, html {
+body,
+html {
   background-color: $pageBackground;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   color: $midnight;
+}
+
+i {
+  position: relative;
+  &:hover:after {
+    @include box-borders();
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    width: 100px;
+    text-align: center;
+    display: block;
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 1.6rem;
+    left: 0;
+    z-index: 10;
+  }
 }
 
 .midnight {
@@ -39,5 +59,3 @@ p {
   font-size: 1.6rem;
   font-weight: 400;
 }
-
-

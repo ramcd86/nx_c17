@@ -1,6 +1,16 @@
 <ng-container *ngIf="pageData$ | async as vm">
-  <workspace-typeahead
-    [coinsAhead]="vm.coinAhead"
-    (selectedCoinId)="navigateToCoin($event)"
-  ></workspace-typeahead>
+  <div class="row">
+    <div class="col-12">
+      <workspace-typeahead
+        [coinsAhead]="vm.coinAhead"
+        (selectedCoinId)="navigateToCoin($event)"
+      ></workspace-typeahead>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      yes
+    </div>
+  </div>
 </ng-container>

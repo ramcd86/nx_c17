@@ -1,7 +1,6 @@
 @import '../../../styles/variables';
 @import '../../../styles/mixins';
 
-
 .typeahead-component {
   &__coin-selection {
     &--loaded {
@@ -10,11 +9,43 @@
     }
   }
   &__coin-input {
+    i {
+      font-size: 2rem;
+    }
+    input {
+      outline: 0;
+      border: 0px;
+      font-size: 2rem;
+      color: $midnight;
+      background-color: transparent;
+      padding-left: 1rem;
+    }
+  }
+  &__results-wrapper {
+    position: relative;
   }
   &__results-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     @include box-borders();
   }
   &__individual-coin-row {
-    font-size: 1.6rem;
+    margin: {
+      left: 0rem;
+      right: 0rem;
+    }
+    padding: {
+      top: 0.3rem;
+      bottom: 0.3rem;
+    }
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    &:hover {
+      background-color: $sunset;
+      cursor: pointer;
+    }
   }
 }
