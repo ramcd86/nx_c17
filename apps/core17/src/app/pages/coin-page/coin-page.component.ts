@@ -9,7 +9,7 @@ import { map, tap } from 'rxjs/operators';
   styleUrls: ['./coin-page.component.scss'],
 })
 export class CoinPageComponent implements OnInit, OnChanges {
-  readonly pageData$ = this._route.data
+  readonly pageData$ = this._activatedRoute.data
     .pipe(
       map((pageData) => {
         return pageData.content as ICoinPageRoute | undefined;
@@ -21,7 +21,7 @@ export class CoinPageComponent implements OnInit, OnChanges {
       })
     );
 
-  constructor(private _route: ActivatedRoute) {}
+  constructor(private _activatedRoute: ActivatedRoute) {}
 
   ngOnInit(): void {}
 

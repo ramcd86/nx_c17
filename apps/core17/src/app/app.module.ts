@@ -30,7 +30,7 @@ import { CoinPageResolver } from './pages/coin-page/coin-page.resolver';
     RouterModule.forRoot(
       [
         {
-          path: '',
+          path: 'home',
           component: HomePageComponent,
           resolve: { content: HomePageResolver },
           pathMatch: 'full',

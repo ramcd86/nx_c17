@@ -1,1 +1,6 @@
-home page!
+<ng-container *ngIf="pageData$ | async as vm">
+  <workspace-typeahead
+    [coinsAhead]="vm.coinAhead"
+    (selectedCoinId)="navigateToCoin($event)"
+  ></workspace-typeahead>
+</ng-container>

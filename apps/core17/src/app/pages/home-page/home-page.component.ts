@@ -1,6 +1,7 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { map } from 'rxjs/operators';
+import { ActivatedRoute, Router } from '@angular/router';
+import { map, tap } from 'rxjs/operators';
+import { IHomePageRoute } from './home-page.resolver';
 
 @Component({
   selector: 'workspace-home-page',
@@ -8,15 +9,27 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./home-page.component.scss'],
 })
 export class HomePageComponent implements OnInit, OnChanges {
-  readonly routeData = this._route.snapshot.data;
+  page: any;
 
-  constructor(private _route: ActivatedRoute) {}
+  readonly pageData$ = this._activatedRoute.data
+    .pipe(
+      map((pageData) => {
+        console.log(pageData.content);
+        return pageData.content as IHomePageRoute | undefined;
+      })
+    )
+    .pipe(tap(() => {}));
 
-  ngOnInit(): void {
-    console.log(this.routeData);
-  }
+  constructor(
+    private _activatedRoute: ActivatedRoute,
+    private _router: Router
+  ) {}
 
-  ngOnChanges(changes: SimpleChanges) {
-    console.log(this.routeData);
+  ngOnInit(): void {}
+
+  ngOnChanges(changes: SimpleChanges) {}
+
+  navigateToCoin(id: number | string) {
+    this._router.navigate(['coin', id]);
   }
 }
