@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../../../node_modules/bootstrap';
+@import 'styles/variables';
+
+body, html {
+  background-color: $pageBackground;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  color: $midnight;
+}
+
+.midnight {
+  color: $midnight;
+}
+
+.sunset {
+  color: $sunset;
+}
+
+.purple {
+  color: $purple;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+

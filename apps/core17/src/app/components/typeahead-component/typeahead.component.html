@@ -1,29 +1,54 @@
-<div class="typeahead-component">
+<div class="row typeahead-component">
   <div
-    *ngIf="coinsAhead; else coinsAheadLoading"
-    class="typeahead-component__coin-selection--loaded"
+    class="col-12 typeahead-component__coin-selection--loaded"
   >
-    <input
-      type="text"
-      placeholder="test"
-      (keyup)="inputChange($event)"
-      class="typeahead-component__coin-input"
-    />
+    <label>
+      Search for Coin
+      <input
+        type="text"
+        placeholder="test"
+        (keyup)="inputChange($event)"
+        class="typeahead-component__coin-input"
+      />
+    </label>
 
-    <div *ngFor="let coin of this.matchingCoins">
-      <div class="typeahead-component__individual-coin" (click)="selectedCoinId.emit(coin.id)">
-        <span>{{ coin.id }}</span>
-        <span>{{ coin.name }}</span>
-        <span>{{ coin.symbol }}</span>
-        <span>{{ coin.price }}</span>
-        <span>{{ coin.rank }}</span>
+    <div class="typeahead-component__results-container">
+<!--      <div class="row typeahead-component__individual-coin-row" (click)="selectedCoinId.emit(coin.id)">-->
+<!--        <div class="col-1">{{ coin.id }}</div>-->
+<!--        <div class="col-2">{{ coin.name }}</div>-->
+<!--        <div class="col-2">{{ coin.symbol }}</div>-->
+<!--        <div class="col-2">{{ coin.price }}</div>-->
+<!--        <div class="col-2">{{ coin.rank }}</div>-->
+<!--      </div>-->
+<!--    </div>-->
+      <div class="row typeahead-component__individual-coin-row">
+        <div class="col-1">1</div>
+        <div class="col-2">Bitcoin</div>
+        <div class="col-2">BTC</div>
+        <div class="col-2">345324875</div>
+        <div class="col-2">1</div>
       </div>
-    </div>
+      <div class="row typeahead-component__individual-coin-row">
+        <div class="col-1">1</div>
+        <div class="col-2">Bitcoin</div>
+        <div class="col-2">BTC</div>
+        <div class="col-2">345324875</div>
+        <div class="col-2">1</div>
+      </div>
+      <div class="row typeahead-component__individual-coin-row">
+        <div class="col-1">1</div>
+        <div class="col-2">Bitcoin</div>
+        <div class="col-2">BTC</div>
+        <div class="col-2">345324875</div>
+        <div class="col-2">1</div>
+      </div>
+      <div class="row typeahead-component__individual-coin-row">
+        <div class="col-1">1</div>
+        <div class="col-2">Bitcoin</div>
+        <div class="col-2">BTC</div>
+        <div class="col-2">345324875</div>
+        <div class="col-2">1</div>
+      </div>
   </div>
-
-  <ng-template
-    #coinsAheadLoading
-    class="typeahead-component__coin-selection--loading"
-    >Loading</ng-template
-  >
+</div>
 </div>
