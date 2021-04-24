@@ -1,0 +1,139 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 28,
+    "uuid": "1wJlqkxIpJKLN",
+    "slug": "decred-dcr",
+    "symbol": "DCR",
+    "name": "Decred",
+    "description": "Decred is a decentralized blockchain that is completely self-ruling by its stakeholders. The platforms main features are smart contracts, cross-chain cryptocurrency exchange and cross-platform wallets.",
+    "color": "#3268fb",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/SyJaBU_dZ/dcr.svg",
+    "websiteUrl": "https://www.decred.org/",
+    "socials": [
+      {
+        "name": "decredproject",
+        "url": "https://twitter.com/decredproject",
+        "type": "twitter"
+      },
+      {
+        "name": "r/decred",
+        "url": "https://www.reddit.com/r/decred",
+        "type": "reddit"
+      },
+      {
+        "name": "decred",
+        "url": "https://medium.com/decred",
+        "type": "medium"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1290358.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucj2bydapyhpsmjph_m5dnsg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/decredcash/",
+        "type": "facebook"
+      },
+      { "name": "decred", "url": "https://github.com/decred", "type": "github" }
+    ],
+    "links": [
+      {
+        "name": "www.decred.org",
+        "type": "website",
+        "url": "https://www.decred.org/"
+      },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/decred",
+        "type": "website"
+      },
+      {
+        "name": "decredproject",
+        "url": "https://twitter.com/decredproject",
+        "type": "twitter"
+      },
+      {
+        "name": "r/decred",
+        "url": "https://www.reddit.com/r/decred",
+        "type": "reddit"
+      },
+      {
+        "name": "decred",
+        "url": "https://medium.com/decred",
+        "type": "medium"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1290358.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucj2bydapyhpsmjph_m5dnsg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/decredcash/",
+        "type": "facebook"
+      },
+      { "name": "decred", "url": "https://github.com/decred", "type": "github" }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 106,
+    "numberOfExchanges": 41,
+    "type": "coin",
+    "volume": 26969099,
+    "marketCap": 2390631008,
+    "price": "185.9707748075",
+    "circulatingSupply": 12854874.69782392,
+    "totalSupply": 20999999.99800912,
+    "approvedSupply": true,
+    "firstSeen": 1441411200000,
+    "listedAt": 1441411200,
+    "change": 6.84,
+    "rank": 54,
+    "history": [
+      "174.0686732723",
+      "173.1381449318",
+      "173.387737487",
+      "178.99695537",
+      "181.4115488653",
+      "178.1199894185",
+      "176.7345144213",
+      "177.0107638879",
+      "178.6770765278",
+      "178.5267184092",
+      "179.3956292389",
+      "182.1310350614",
+      "183.288351198",
+      "183.211082575",
+      "182.0850093331",
+      "182.2458918131",
+      "184.8520887316",
+      "180.0130652398",
+      "179.2357444806",
+      "180.3302204503",
+      "184.0070346692",
+      "185.5864937423",
+      "186.0453514389",
+      "186.5326675663",
+      "185.0429475967",
+      "185.840987646",
+      "185.9707748075"
+    ],
+    "allTimeHigh": {
+      "price": "240.35476298241502",
+      "timestamp": 1618617600000
+    },
+    "penalty": false
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 31,
+    "uuid": "UgmbLGC4VG594",
+    "slug": "bytecoin-bcn",
+    "symbol": "BCN",
+    "name": "ByteCoin",
+    "description": "Bytecoin is a private untraceable cryptocurrency and makes use of a proof-of-work consensus mechanism. Transactions on its blockchain are obfuscated by a secure cryptographic algorithm.",
+    "color": "#f04086",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/B1AbzkcLM/bcn.svg",
+    "websiteUrl": "https://bytecoin.org/",
+    "socials": [
+      {
+        "name": "bytecoin_bcn",
+        "url": "https://twitter.com/bytecoin_bcn",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bytecoinbcn",
+        "url": "https://www.reddit.com/r/bytecoinbcn/",
+        "type": "reddit"
+      },
+      {
+        "name": "amjuarez/bytecoin",
+        "url": "https://github.com/amjuarez/bytecoin",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=512747.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "bytecoin_bcn",
+        "url": "https://twitter.com/bytecoin_bcn",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bytecoinbcn",
+        "url": "https://www.reddit.com/r/bytecoinbcn/",
+        "type": "reddit"
+      },
+      {
+        "name": "amjuarez/bytecoin",
+        "url": "https://github.com/amjuarez/bytecoin",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=512747.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "bytecoin.org",
+        "type": "website",
+        "url": "https://bytecoin.org/"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 40,
+    "numberOfExchanges": 15,
+    "type": "coin",
+    "volume": 789032,
+    "marketCap": 167489323,
+    "price": "0.0009099376",
+    "circulatingSupply": 184066827285,
+    "totalSupply": 184066827285,
+    "approvedSupply": true,
+    "firstSeen": 1496361600000,
+    "listedAt": 1496361600,
+    "change": 22.64,
+    "rank": 206,
+    "history": [
+      "0.0007419674",
+      "0.0007316832",
+      "0.0007471408",
+      "0.0007768266",
+      "0.0007784046",
+      "0.0007671723",
+      "0.00077564",
+      "0.0007467172",
+      "0.0007868159",
+      "0.0007860497",
+      "0.0008256735",
+      "0.0008367981",
+      "0.0008532897",
+      "0.0009161322",
+      "0.000913711",
+      "0.0009133556",
+      "0.0009278812",
+      "0.0009146526",
+      "0.0009285293",
+      "0.0009369929",
+      "0.0009419232",
+      "0.0009224815",
+      "0.0009155927",
+      "0.0009351268",
+      "0.0009187745",
+      "0.0009176058",
+      "0.0009099376"
+    ],
+    "allTimeHigh": {
+      "price": "0.027588543720122826",
+      "timestamp": 1525910400000
+    },
+    "penalty": false
+  }
+}

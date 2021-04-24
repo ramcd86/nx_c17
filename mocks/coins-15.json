@@ -1,0 +1,113 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 15,
+    "uuid": "cVaOmQWainv7g",
+    "slug": "neo-neo",
+    "symbol": "NEO",
+    "name": "NEO",
+    "description": "<p>Neo (NEO) is a distributed smart economy network that utilizes blockchain technology and digital identity. The platform allows digitizing assets and making them self-managed by using smart contracts.</p>\n<h3>The goal of NEO</h3>\n<p>Neo is designed to digitize assets using smart contracts, aiming to bring blockchain to the masses.</p>\n<h3>Who started NEO</h3>\n<p>In 2014, NEO was first launched as Antshares by Da Hongfei,  by Da HongFei and Erik Zhang. In 2017 the project was rebranded as NEO. NEO has an active development team with both in-house developers in charge of developing the platform and a strong community of third-party developers, who develop the decentralized apps (DApps).</p>\n<h3>Neo technology</h3>\n<p>NEO is a unique blockchain algorithm, supporting decentralized commerce, identification, and digitization of various assets. It integrates blockchain technology with the digital identity, creating ways for physical assets like money or company shares assets to be digitized and exchanged over the NEO network in a peer-to-peer manner. NEO wants to create a platform on which other decentralized applications can be built by allowing users to execute smart contracts on their blockchain, thus increasing the spread of the blockchain technology.</p>",
+    "color": "#aedb00",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/MgUNVQCeN/neo.svg",
+    "websiteUrl": "https://neo.org/",
+    "socials": [
+      {
+        "name": "neo_blockchain",
+        "url": "https://twitter.com/neo_blockchain",
+        "type": "twitter"
+      },
+      {
+        "name": "r/neo",
+        "url": "https://www.reddit.com/r/neo/",
+        "type": "reddit"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/neosmartecon/",
+        "type": "facebook"
+      },
+      {
+        "name": "neo-project",
+        "url": "https://github.com/neo-project",
+        "type": "github"
+      }
+    ],
+    "links": [
+      { "name": "neo.org", "type": "website", "url": "https://neo.org/" },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/neo",
+        "type": "website"
+      },
+      {
+        "name": "neo_blockchain",
+        "url": "https://twitter.com/neo_blockchain",
+        "type": "twitter"
+      },
+      {
+        "name": "r/neo",
+        "url": "https://www.reddit.com/r/neo/",
+        "type": "reddit"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/neosmartecon/",
+        "type": "facebook"
+      },
+      {
+        "name": "neo-project",
+        "url": "https://github.com/neo-project",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 354,
+    "numberOfExchanges": 108,
+    "type": "coin",
+    "volume": 2232279559,
+    "marketCap": 6430538998,
+    "price": "89.0660121004",
+    "circulatingSupply": 72199696,
+    "totalSupply": 100000000,
+    "approvedSupply": true,
+    "firstSeen": 1501891200000,
+    "listedAt": 1501891200,
+    "change": 10.36,
+    "rank": 25,
+    "history": [
+      "80.7043893692",
+      "79.5390341725",
+      "81.4680518404",
+      "84.4930709184",
+      "83.4392033501",
+      "80.5994687119",
+      "80.6322038501",
+      "80.5970224066",
+      "81.2732775363",
+      "81.5224679508",
+      "81.4968400167",
+      "83.3310096378",
+      "84.7763550216",
+      "84.750407927",
+      "84.0064173794",
+      "85.0032627475",
+      "85.8934676596",
+      "82.9270464932",
+      "83.5170772818",
+      "84.1844872967",
+      "85.2644085289",
+      "85.5039152492",
+      "85.900351163",
+      "87.5404548732",
+      "87.4178104264",
+      "89.5145581326",
+      "89.0660121004"
+    ],
+    "allTimeHigh": {
+      "price": "169.67828825811074",
+      "timestamp": 1516060800000
+    },
+    "penalty": false
+  }
+}

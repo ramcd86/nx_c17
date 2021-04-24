@@ -7,8 +7,8 @@ import { ServicesModule } from './services/services.module';
 
 // tslint:disable-next-line:nx-enforce-module-boundaries
 import { AppServerModule } from './../../../core17/src/main.server';
-import { HttpBaseService } from './services/httpbase.service';
-import { MockHttpBaseService } from './services/mockhttpbase.service';
+import { HttpAdapterService } from './services/http-adapter.service';
+import { MockHttpAdapterService } from './services/mock-http-adapter.service';
 @Module({
   imports: [
     AngularUniversalModule.forRoot({
@@ -22,8 +22,8 @@ import { MockHttpBaseService } from './services/mockhttpbase.service';
       provide: 'httpBase',
       useExisting:
         process.env.IS_PRODUCTION === 'true'
-          ? HttpBaseService
-          : MockHttpBaseService,
+          ? HttpAdapterService
+          : MockHttpAdapterService,
     },
   ],
   exports: [],

@@ -1,11 +1,11 @@
 import { HttpModule, Module } from '@nestjs/common';
-import { HttpBaseService } from './httpbase.service';
+import { HttpAdapterService } from './http-adapter.service';
 import { ConfigService } from './config.service';
-import { MockHttpBaseService } from './mockhttpbase.service';
+import { MockHttpAdapterService } from './mock-http-adapter.service';
 
 @Module({
   imports: [HttpModule],
-  providers: [ConfigService, HttpBaseService, MockHttpBaseService],
-  exports: [HttpBaseService, MockHttpBaseService, ConfigService],
+  providers: [ConfigService, HttpAdapterService, MockHttpAdapterService],
+  exports: [HttpAdapterService, MockHttpAdapterService, ConfigService],
 })
 export class ServicesModule {}

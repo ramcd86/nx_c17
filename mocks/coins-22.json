@@ -1,0 +1,83 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 22,
+    "uuid": "qFakph2rpuMOL",
+    "slug": "maker-mkr",
+    "symbol": "MKR",
+    "name": "Maker",
+    "description": "<p>Maker (MKR) is a token on the Ethereum blockchain with the aim to govern, secure and support the Dai Stable Coin system (DCS). It is a smart contract platform that controls and sells Dai; Maker stabilizes the value of Dai to one U.S. dollar using external market mechanisms and economic incentives. Without the need of using a third centralized party, Maker aims to offer a transparent stablecoin system that is operating on the Ethereum blockchain. The Maker Platform has two coins: Makercoin (MKR) and Dai (DAI); Dai is a stable coin that is used for payments, savings, or collateral.</p>\n<h3>The goal of Maker</h3>\n<p>Maker has three important functions on the Maker Platform. The first is utility; you can only use Maker to pay the fees accumulated on Customer Data Platforms (CPDs) that generate Dai in the Maker system. When someone pays a fee, a Maker coin is burned from the supply, which will then decrease. The second function is governance; holders use Maker to vote for the risk management and logistics of the Maker system. And the third is recapitalization resource. If parts of the collateral portfolio become under-collateralized, the system immediately creates new Maker tokens and sells them. This gains money to capitalize the shortfall of value in the system and brings the entire Maker system back from insolvency.</p>",
+    "color": "#1abc9c",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/sjHfS7jCS/mkrdao.svg",
+    "websiteUrl": "https://makerdao.com",
+    "socials": [],
+    "links": [
+      {
+        "name": "makerdao.com",
+        "type": "website",
+        "url": "https://makerdao.com"
+      },
+      {
+        "name": "r/makerdao",
+        "url": "https://www.reddit.com/r/makerdao/",
+        "type": "reddit"
+      },
+      {
+        "name": "@makerdao",
+        "url": "https://medium.com/@makerdao",
+        "type": "medium"
+      },
+      {
+        "name": "makerdao",
+        "url": "https://github.com/makerdao/",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 223,
+    "numberOfExchanges": 101,
+    "type": "coin",
+    "volume": 459202900,
+    "marketCap": 3508132051,
+    "price": "3890.6507884218",
+    "circulatingSupply": 901682.582538043,
+    "totalSupply": 995238.7713171599,
+    "approvedSupply": true,
+    "firstSeen": 1502236800000,
+    "listedAt": 1502236800,
+    "change": 7.87,
+    "rank": 38,
+    "history": [
+      "3606.7551276316",
+      "3573.1571967926",
+      "3696.8208918992",
+      "4090.6702686073",
+      "4116.7902606812",
+      "3926.5157604149",
+      "3963.1615545442",
+      "4054.8548439093",
+      "4185.3171080414",
+      "4114.0439302155",
+      "4056.2357720214",
+      "4141.2453734943",
+      "4177.9089859201",
+      "4172.0475789641",
+      "4080.7914334489",
+      "4035.450781581",
+      "4068.9795970994",
+      "3906.422922545",
+      "3882.887068132",
+      "3893.5571179264",
+      "3965.9021158598",
+      "3990.9166619256",
+      "3981.9359187057",
+      "3949.104680662",
+      "3890.6915165396",
+      "3943.6335548764",
+      "3890.6507884218"
+    ],
+    "allTimeHigh": { "price": "4494.790411631041", "timestamp": 1619049600000 },
+    "penalty": false
+  }
+}

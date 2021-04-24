@@ -1,0 +1,132 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 30,
+    "uuid": "q9yo3-QDbH-lM",
+    "slug": "digibyte-dgb",
+    "symbol": "DGB",
+    "name": "DigiByte",
+    "description": "DigiByte is a blockchain which focusses mainly on cybersecurity and fast transactions. Its blockrate of 1 block per 15 seconds makes it one of the fastest blockchains today. DigiBytes can be used as a currency or for transporting and securing data.",
+    "color": "#002352",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/HJcoNFDSM/dgb.svg",
+    "websiteUrl": "https://digibyte.io/",
+    "socials": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/digibytecoin/",
+        "type": "facebook"
+      },
+      {
+        "name": "digibytecoin",
+        "url": "https://twitter.com/digibytecoin",
+        "type": "twitter"
+      },
+      {
+        "name": "digibytecoin",
+        "url": "https://www.youtube.com/user/digibytecoin",
+        "type": "youtube"
+      },
+      {
+        "name": "r/digibyte",
+        "url": "https://www.reddit.com/r/digibyte/",
+        "type": "reddit"
+      },
+      {
+        "name": "digibyte/digibyte",
+        "url": "https://github.com/digibyte/digibyte",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=408268.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/digibytecoin/",
+        "type": "facebook"
+      },
+      {
+        "name": "digibytecoin",
+        "url": "https://twitter.com/digibytecoin",
+        "type": "twitter"
+      },
+      {
+        "name": "digibytecoin",
+        "url": "https://www.youtube.com/user/digibytecoin",
+        "type": "youtube"
+      },
+      {
+        "name": "r/digibyte",
+        "url": "https://www.reddit.com/r/digibyte/",
+        "type": "reddit"
+      },
+      {
+        "name": "digibyte/digibyte",
+        "url": "https://github.com/digibyte/digibyte",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=408268.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "digibyte.io",
+        "type": "website",
+        "url": "https://digibyte.io/"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 220,
+    "numberOfExchanges": 73,
+    "type": "coin",
+    "volume": 162864761,
+    "marketCap": 1787854796,
+    "price": "0.1254936845",
+    "circulatingSupply": 14246571873.717405,
+    "totalSupply": 14246571873.717405,
+    "approvedSupply": true,
+    "firstSeen": 1417478400000,
+    "listedAt": 1417478400,
+    "change": 10.71,
+    "rank": 67,
+    "history": [
+      "0.1133487917",
+      "0.1128339384",
+      "0.1164716733",
+      "0.1218982206",
+      "0.1238014538",
+      "0.1165475904",
+      "0.1180355597",
+      "0.1179513535",
+      "0.1197145479",
+      "0.1210035536",
+      "0.1210249424",
+      "0.1241055844",
+      "0.1246128697",
+      "0.1247800222",
+      "0.1238328122",
+      "0.1243014172",
+      "0.1241823744",
+      "0.1182805998",
+      "0.1167602324",
+      "0.1161599127",
+      "0.1181626043",
+      "0.1208721457",
+      "0.1220340362",
+      "0.1220544178",
+      "0.1196571199",
+      "0.1236772948",
+      "0.1254936845"
+    ],
+    "allTimeHigh": {
+      "price": "0.1526373236899687",
+      "timestamp": 1619049600000
+    },
+    "penalty": false
+  }
+}

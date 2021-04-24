@@ -1,0 +1,129 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 7,
+    "uuid": "D7B1x_ks7WhV5",
+    "slug": "litecoin-ltc",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "description": "<p>Litecoin is a peer-to-peer decentralized digital currency with an instant, near zero-cost payment service to peers across the world. It features a faster transaction confirmation status, along with a refined storage competency. The average block mining speed in Litecoin is 2.5 minutes, compared to bitcoin’s 10 minutes.</p>\n<h3>The goal of Litecoin</h3>\n<p>Litecoin wants to provide a more decentralized mining network, faster transaction processing times, lower transaction fees and less scarcity. The price of each litecoin is cheaper than bitcoin, and transactions are easier, because there are more Litecoins that can be created by mining. Litecoin is often referred to ‘silver’, whilst Bitcoin is compared with ‘gold.’</p>\n<h3>Who started Litecoin</h3>\n<p>In October 2011, litecoin was released via an open-source client on GitHub. (A client is a piece of software that accesses a service made available by a server.) It is basically a fork of the Bitcoin Core client. Charlie Lee is the managing director of the Litecoin Foundation. He’s an ex-Google employee who had the vision to create a lighter version of Bitcoin.</p>",
+    "color": "#345d9d",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/BUvPxmc9o/ltcnew.svg",
+    "websiteUrl": "https://litecoin.org",
+    "socials": [
+      {
+        "name": "litecoinproject",
+        "url": "https://twitter.com/litecoinproject",
+        "type": "twitter"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://web.telegram.org/#/im?p=@litecoin",
+        "type": "telegram"
+      },
+      {
+        "name": "r/litecoin",
+        "url": "https://www.reddit.com/r/litecoin/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=47417.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/uc8unj4yczgc5e7sb_cckdgg",
+        "type": "youtube"
+      },
+      {
+        "name": "ltcfoundation",
+        "url": "http://www.instagram.com/ltcfoundation",
+        "type": "instagram"
+      }
+    ],
+    "links": [
+      {
+        "name": "litecoin.org",
+        "type": "website",
+        "url": "https://litecoin.org"
+      },
+      {
+        "name": "litecoinproject",
+        "url": "https://twitter.com/litecoinproject",
+        "type": "twitter"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://web.telegram.org/#/im?p=@litecoin",
+        "type": "telegram"
+      },
+      {
+        "name": "r/litecoin",
+        "url": "https://www.reddit.com/r/litecoin/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=47417.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/uc8unj4yczgc5e7sb_cckdgg",
+        "type": "youtube"
+      },
+      {
+        "name": "ltcfoundation",
+        "url": "http://www.instagram.com/ltcfoundation",
+        "type": "instagram"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 3072,
+    "numberOfExchanges": 287,
+    "type": "coin",
+    "volume": 4310305711,
+    "marketCap": 15761328936,
+    "price": "233.5035624639",
+    "circulatingSupply": 67499308.2334659,
+    "totalSupply": 67499308.23347135,
+    "approvedSupply": true,
+    "firstSeen": 1382572800000,
+    "listedAt": 1382572800,
+    "change": 0.53,
+    "rank": 10,
+    "history": [
+      "232.2643361754",
+      "229.8526270434",
+      "233.7883951989",
+      "236.7346666407",
+      "237.0378834841",
+      "231.8141935973",
+      "232.7126459027",
+      "234.2772045515",
+      "235.2430365914",
+      "235.6817051964",
+      "236.3280473366",
+      "239.8162469521",
+      "241.3309846083",
+      "238.9922144646",
+      "235.1892462206",
+      "236.751159991",
+      "240.5352766811",
+      "235.4045371669",
+      "235.4346427246",
+      "233.7345709125",
+      "236.5734782042",
+      "235.4815465008",
+      "236.5805122725",
+      "236.4290041721",
+      "232.824967594",
+      "235.0212219057",
+      "233.5035624639"
+    ],
+    "allTimeHigh": { "price": "356.5915738792805", "timestamp": 1513728000000 },
+    "penalty": false
+  }
+}

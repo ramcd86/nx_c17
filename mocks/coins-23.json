@@ -1,0 +1,129 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 23,
+    "uuid": "1rnjJ1rInKP5K",
+    "slug": "bitcoingold-btg",
+    "symbol": "BTG",
+    "name": "Bitcoin Gold",
+    "description": "Bitcoin Gold is a hard fork of the open source Bitcoin code. The blockchain network aims to decentralize mining by using a hashing algorithm called Equihash, rendering specialised mining equipment obsolete in an attempt to further democratise the Bitcoin mining process.",
+    "color": "#021e6b",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/BkLedkw-G/btg.svg",
+    "websiteUrl": "https://bitcoingold.org",
+    "socials": [
+      {
+        "name": "@btcgpu",
+        "url": "https://medium.com/@btcgpu",
+        "type": "medium"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/bitcoingoldofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "bitcoingold",
+        "url": "https://twitter.com/bitcoingold",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bitcoingoldhq",
+        "url": "https://www.reddit.com/r/bitcoingoldhq",
+        "type": "reddit"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/hmvuu6s",
+        "type": "discord"
+      },
+      {
+        "name": "btcgpu/btcgpu",
+        "url": "https://github.com/btcgpu/btcgpu",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "@btcgpu",
+        "url": "https://medium.com/@btcgpu",
+        "type": "medium"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/bitcoingoldofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "bitcoingold",
+        "url": "https://twitter.com/bitcoingold",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bitcoingoldhq",
+        "url": "https://www.reddit.com/r/bitcoingoldhq",
+        "type": "reddit"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/hmvuu6s",
+        "type": "discord"
+      },
+      {
+        "name": "btcgpu/btcgpu",
+        "url": "https://github.com/btcgpu/btcgpu",
+        "type": "github"
+      },
+      {
+        "name": "bitcoingold.org",
+        "type": "website",
+        "url": "https://bitcoingold.org"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 170,
+    "numberOfExchanges": 71,
+    "type": "coin",
+    "volume": 798123940,
+    "marketCap": 1570084716,
+    "price": "90.4473622997",
+    "circulatingSupply": 17359099,
+    "totalSupply": 17458599,
+    "approvedSupply": true,
+    "firstSeen": 1508803200000,
+    "listedAt": 1508803200,
+    "change": -11.06,
+    "rank": 72,
+    "history": [
+      "101.6978688899",
+      "98.4028011946",
+      "98.3858397625",
+      "95.5579985167",
+      "91.1922787356",
+      "90.3477444024",
+      "89.6033826564",
+      "87.8657053146",
+      "83.86850775",
+      "81.6031535721",
+      "82.5225878139",
+      "83.1908169536",
+      "83.3196609738",
+      "84.9325073819",
+      "89.09440614",
+      "88.3819018596",
+      "89.9246876702",
+      "90.8122703092",
+      "91.297709061",
+      "91.4826136106",
+      "90.831763175",
+      "90.2635846978",
+      "89.4795608825",
+      "89.5848978465",
+      "88.155783788",
+      "89.0400828057",
+      "90.4473622997"
+    ],
+    "allTimeHigh": { "price": "424.2354135868738", "timestamp": 1513814400000 },
+    "penalty": false
+  }
+}

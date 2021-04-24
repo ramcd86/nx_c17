@@ -1,0 +1,114 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 24,
+    "uuid": "_tpssiAXwrHfr",
+    "slug": "omgnetwork-omg",
+    "symbol": "OMG",
+    "name": "OMG Network",
+    "description": "<p>OMG Network is described as an impact-driven team creating a value transfer network on the blockchain. They see a world with borderless and open financial systems that are accessible to everyone. Established in 2017 under the brand name OmiseGO, the rebranded OMG Network is a subsidiary of SYNQA. Its mission is to enable open financial services that are fast, cheap, and secure.</p>\n<h3>The goal of OMN Network</h3>\n<p>The OMG Network aims to be the quickest and most affordable way to transfer ETH and ERC20 tokens globally and without restrictions. The OMG Network is a value transfer layer for digital values like ETH and ERC20 tokens. It achieves this using Plasma, an optimized layer on top of the Ethereum Network. Plasma compresses transactions and sends them to the Ethereum Network for confirmation, resulting in higher processing speeds and lower fees.</p>\n",
+    "color": "#4967FF",
+    "iconType": "pixel",
+    "iconUrl": "https://cdn.coinranking.com/QgAg0SB-W/OMG.png",
+    "websiteUrl": "https://omg.omise.co/",
+    "socials": [
+      {
+        "name": "omise_go",
+        "url": "https://twitter.com/omise_go",
+        "type": "twitter"
+      },
+      {
+        "name": "r/omise_go",
+        "url": "https://www.reddit.com/r/omise_go/",
+        "type": "reddit"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucqgyg8ie6vyhcfddjms_epg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/omisego/",
+        "type": "facebook"
+      }
+    ],
+    "links": [
+      {
+        "name": "omg.network",
+        "url": "https://omg.network/",
+        "type": "website"
+      },
+      {
+        "name": "omgnetworkhq",
+        "url": "https://twitter.com/omgnetworkhq",
+        "type": "twitter"
+      },
+      {
+        "name": "reddit.com",
+        "url": "https://reddit.com/r/omise_go",
+        "type": "reddit"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucqgyg8ie6vyhcfddjms_epg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/omisego/",
+        "type": "facebook"
+      },
+      {
+        "name": "omgnetwork",
+        "url": "https://github.com/omgnetwork",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 415,
+    "numberOfExchanges": 156,
+    "type": "coin",
+    "volume": 359027684,
+    "marketCap": 902361641,
+    "price": "6.4347937978",
+    "circulatingSupply": 140231632.825095,
+    "totalSupply": 140245398.24513277,
+    "approvedSupply": true,
+    "firstSeen": 1499990400000,
+    "listedAt": 1499990400,
+    "change": 4.32,
+    "rank": 94,
+    "history": [
+      "6.1684242759",
+      "6.0938648948",
+      "6.258937164",
+      "6.3918413595",
+      "6.3387074394",
+      "6.1277948024",
+      "6.1301186905",
+      "6.1871545496",
+      "6.2898918506",
+      "6.3145640917",
+      "6.3293538474",
+      "6.4449757357",
+      "6.5047547346",
+      "6.4579866368",
+      "6.3767901991",
+      "6.4363826584",
+      "6.5564916865",
+      "6.3858687318",
+      "6.4211911149",
+      "6.4797832782",
+      "6.5901969684",
+      "6.5662333959",
+      "6.6048982123",
+      "6.6167835899",
+      "6.4444279685",
+      "6.5029962814",
+      "6.4347937978"
+    ],
+    "allTimeHigh": { "price": "24.84309748019746", "timestamp": 1515456000000 },
+    "penalty": false
+  }
+}

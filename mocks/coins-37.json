@@ -1,0 +1,137 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 37,
+    "uuid": "U70EVFnDc6diV",
+    "slug": "icon-icx",
+    "symbol": "ICX",
+    "name": "ICON",
+    "description": "ICON is one of the largest blockchain networks in the world. ICON has a proven track record and has progressed beyond the initial concept stage. ICON already boasts independent blockchains comprised of reputable institutions in major industries - banks, securities, insurance, hospitals, universities, government and more.",
+    "color": "#1aaaba",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/By_O0CoXf/ICON.svg",
+    "websiteUrl": "https://www.icon.foundation",
+    "socials": [
+      {
+        "name": "helloiconworld",
+        "url": "https://twitter.com/helloiconworld",
+        "type": "twitter"
+      },
+      {
+        "name": "hello_iconworld",
+        "url": "https://t.me/hello_iconworld",
+        "type": "telegram"
+      },
+      {
+        "name": "r/helloicon",
+        "url": "https://www.reddit.com/r/helloicon",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2115503.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/uc5srwl7cky09cvtudxhtizw",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/helloicon",
+        "type": "facebook"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.icon.foundation",
+        "type": "website",
+        "url": "https://www.icon.foundation"
+      },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/icon",
+        "type": "website"
+      },
+      {
+        "name": "helloiconworld",
+        "url": "https://twitter.com/helloiconworld",
+        "type": "twitter"
+      },
+      {
+        "name": "hello_iconworld",
+        "url": "https://t.me/hello_iconworld",
+        "type": "telegram"
+      },
+      {
+        "name": "r/helloicon",
+        "url": "https://www.reddit.com/r/helloicon",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2115503.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/uc5srwl7cky09cvtudxhtizw",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/helloicon",
+        "type": "facebook"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 105,
+    "numberOfExchanges": 43,
+    "type": "coin",
+    "volume": 144408325,
+    "marketCap": 961472793,
+    "price": "1.8354503407",
+    "circulatingSupply": 523834817,
+    "totalSupply": 800460000,
+    "approvedSupply": true,
+    "firstSeen": 1509148800000,
+    "listedAt": 1509148800,
+    "change": 10.37,
+    "rank": 91,
+    "history": [
+      "1.6630303732",
+      "1.6543937192",
+      "1.7274746767",
+      "1.7858443335",
+      "1.7666651715",
+      "1.695620345",
+      "1.7105714384",
+      "1.7275246305",
+      "1.7706522953",
+      "1.7629636036",
+      "1.7581366277",
+      "1.8019562356",
+      "1.8261440235",
+      "1.835134768",
+      "1.7999308935",
+      "1.7942666905",
+      "1.8427269761",
+      "1.8191447141",
+      "1.7972325531",
+      "1.8048071142",
+      "1.8367128676",
+      "1.8365020086",
+      "1.8735585766",
+      "1.881630001",
+      "1.8258478724",
+      "1.8458989518",
+      "1.8354503407"
+    ],
+    "allTimeHigh": {
+      "price": "11.658555258210923",
+      "timestamp": 1515542400000
+    },
+    "penalty": false
+  }
+}

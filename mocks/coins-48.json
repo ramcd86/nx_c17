@@ -1,0 +1,145 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 48,
+    "uuid": "3uQx0Z-3ooH9O",
+    "slug": "metaverseetp-etp",
+    "symbol": "ETP",
+    "name": "Metaverse ETP",
+    "description": "Metaverse ETP (ETP) is public blockchain for decentralized assets and digital identities. Metaverse digitizes rare goods such as artwork and antiques, intellectual property, and rights to earnings from financial instruments to improve market efficiency.",
+    "color": "#fcb26d",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/ByRxGl-kf/etp.svg",
+    "websiteUrl": "https://mvs.org",
+    "socials": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/mvsofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "mvs_org",
+        "url": "https://twitter.com/mvs_org",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucddgncltg2fb6mccadcaibw",
+        "type": "youtube"
+      },
+      {
+        "name": "r/metaverse_blockchain",
+        "url": "https://www.reddit.com/r/metaverse_blockchain/",
+        "type": "reddit"
+      },
+      {
+        "name": "metaverseofficial",
+        "url": "https://www.instagram.com/metaverseofficial/",
+        "type": "instagram"
+      },
+      {
+        "name": "metaverse_blockchain",
+        "url": "https://t.me/metaverse_blockchain",
+        "type": "telegram"
+      },
+      {
+        "name": "mvs-org",
+        "url": "http://github.com/mvs-org",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2134505.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/mvsofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "mvs_org",
+        "url": "https://twitter.com/mvs_org",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucddgncltg2fb6mccadcaibw",
+        "type": "youtube"
+      },
+      {
+        "name": "r/metaverse_blockchain",
+        "url": "https://www.reddit.com/r/metaverse_blockchain/",
+        "type": "reddit"
+      },
+      {
+        "name": "metaverseofficial",
+        "url": "https://www.instagram.com/metaverseofficial/",
+        "type": "instagram"
+      },
+      {
+        "name": "metaverse_blockchain",
+        "url": "https://t.me/metaverse_blockchain",
+        "type": "telegram"
+      },
+      {
+        "name": "mvs-org",
+        "url": "http://github.com/mvs-org",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2134505.0",
+        "type": "bitcointalk"
+      },
+      { "name": "mvs.org", "type": "website", "url": "https://mvs.org" }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 44,
+    "numberOfExchanges": 12,
+    "type": "coin",
+    "volume": 875658,
+    "marketCap": 21227028,
+    "price": "0.3962648634",
+    "circulatingSupply": 53567778,
+    "totalSupply": 56901911,
+    "approvedSupply": true,
+    "firstSeen": 1503014400000,
+    "listedAt": 1503014400,
+    "change": 7.17,
+    "rank": 348,
+    "history": [
+      "0.3697623237",
+      "0.3764520999",
+      "0.3876318878",
+      "0.4031847941",
+      "0.4053383906",
+      "0.4008147517",
+      "0.3929648252",
+      "0.3958499447",
+      "0.3959355119",
+      "0.3983456722",
+      "0.3927008536",
+      "0.3947327286",
+      "0.3956165696",
+      "0.3916254808",
+      "0.3896090869",
+      "0.3896840395",
+      "0.3964765283",
+      "0.3935171101",
+      "0.3903267446",
+      "0.3897024131",
+      "0.3938146363",
+      "0.3992647532",
+      "0.4016668543",
+      "0.40215965",
+      "0.3968812051",
+      "0.3944872741",
+      "0.3962648634"
+    ],
+    "allTimeHigh": { "price": "5.709154325914375", "timestamp": 1508544000000 },
+    "penalty": false
+  }
+}

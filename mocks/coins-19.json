@@ -1,0 +1,142 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 19,
+    "uuid": "FEbS54wxo4oIl",
+    "slug": "vechain-vet",
+    "symbol": "VET",
+    "name": "VeChain",
+    "description": "<p>VeChain (VET) is a blockchain platform focussing on creating an ecosystem that can be used by enterprises for products and information. The ecosystem enables transparency and symmetrical information. The VeChain token is called VET and serves as fuel in the VeChain platform.</p>\n<h3>The goal of VeChain</h3>\n<p>The project is built on top of the VeChainThor public blockchain and wants to build a trust-free and distributed business ecosystem, which is self-circulating and scalable. VeChain strives to provide resources to anyone who wants to solve real-world economic problems. The VeChain platform wants to create market transparency to authorized stakeholders, by providing a 360-degree view of information linked to a product and its business processes, like storage, transportation, and supply.</p>\n<h3>Who started VeChain</h3>\n<p>In 2015, VeChain was founded by Sunny Lu, former CIO of Louis Vuitton China. The project started as a subsidiary of Bitse, one of China’s largest blockchain companies. Initially, the VEN token functioned on the Ethereum blockchain. VeChain transitioned onto its own blockchain and was rebranded in 2018. As part of the rebrand, the VEN blockchain became the VeChainThor (VET) blockchain.</p>",
+    "color": "#4bc0fa",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/B1_TDu9Dm/VEN.svg",
+    "websiteUrl": "https://www.vechain.com",
+    "socials": [
+      {
+        "name": "vechainofficial",
+        "url": "https://twitter.com/vechainofficial",
+        "type": "twitter"
+      },
+      {
+        "name": "vechain_official_english",
+        "url": "https://t.me/vechain_official_english",
+        "type": "telegram"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discordapp.com/invite/hhvxvux",
+        "type": "discord"
+      },
+      {
+        "name": "@vechainofficial",
+        "url": "https://medium.com/@vechainofficial",
+        "type": "medium"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucqkewpu5hkel4o3sxlj3n5a",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/vechain/",
+        "type": "facebook"
+      },
+      {
+        "name": "vechain/thor",
+        "url": "https://github.com/vechain/thor",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.vechain.com",
+        "type": "website",
+        "url": "https://www.vechain.com"
+      },
+      {
+        "name": "vechainofficial",
+        "url": "https://twitter.com/vechainofficial",
+        "type": "twitter"
+      },
+      {
+        "name": "vechain_official_english",
+        "url": "https://t.me/vechain_official_english",
+        "type": "telegram"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discordapp.com/invite/hhvxvux",
+        "type": "discord"
+      },
+      {
+        "name": "@vechainofficial",
+        "url": "https://medium.com/@vechainofficial",
+        "type": "medium"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucqkewpu5hkel4o3sxlj3n5a",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/vechain/",
+        "type": "facebook"
+      },
+      {
+        "name": "vechain/thor",
+        "url": "https://github.com/vechain/thor",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 146,
+    "numberOfExchanges": 48,
+    "type": "coin",
+    "volume": 4167647258,
+    "marketCap": 13040107805,
+    "price": "0.2007128881",
+    "circulatingSupply": 64968961033,
+    "totalSupply": 85985041177,
+    "approvedSupply": true,
+    "firstSeen": 1533427200000,
+    "listedAt": 1533427200,
+    "change": 15.99,
+    "rank": 15,
+    "history": [
+      "0.173049991",
+      "0.1716190302",
+      "0.180683772",
+      "0.1922617149",
+      "0.1945882176",
+      "0.184017114",
+      "0.1842505201",
+      "0.1848206442",
+      "0.1877459638",
+      "0.1893759698",
+      "0.1905724723",
+      "0.1972085958",
+      "0.2028368106",
+      "0.2016938348",
+      "0.197646816",
+      "0.1982996406",
+      "0.2026017604",
+      "0.1944043391",
+      "0.1954164022",
+      "0.1951177042",
+      "0.1994163141",
+      "0.2001507017",
+      "0.2026017297",
+      "0.2048903779",
+      "0.1991166404",
+      "0.2024257365",
+      "0.2007128881"
+    ],
+    "allTimeHigh": {
+      "price": "0.24820567041527256",
+      "timestamp": 1618790400000
+    },
+    "penalty": false
+  }
+}

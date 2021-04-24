@@ -1,0 +1,122 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 9,
+    "uuid": "qzawljRxB5bYu",
+    "slug": "cardano-ada",
+    "symbol": "ADA",
+    "name": "Cardano",
+    "description": "<p>Cardano (ADA) is a decentralised public blockchain and cryptocurrency project and is fully open source. Cardano is built in the secure Haskell programming language. Cardano is developing a smart contract platform which seeks to deliver lots of advanced features. It claims to be the first blockchain platform to evolve out of a scientific philosophy and a research-first driven approach.</p>\n<h3>The goal of Cardano</h3>\n<p>In 2015, the Cardano project began as an effort to change the way cryptocurrencies are designed and developed. The overall focus beyond a particular set of innovations is to provide a more balanced and sustainable ecosystem that better accounts for the needs of its users as well as other systems seeking integration. Cardano did not begin with a comprehensive roadmap or even an authoritative white paper. It started with a collection of design principles, engineering best practices and avenues for exploration. The Cardano platform now features decentralized applications and contracts that operate at low cost in a secure and scalable way.</p>\n<h3>Who started Cardano</h3>\n<p>Cardano was launched in 2017, and founded by Charles Hoskinson, co-founder of Ethereum. Charles said he wanted to provide a more balanced and sustainable ecosystem for cryptocurrencies. The development team consists of a large global collective of expert engineers and researchers.</p>",
+    "color": "#3cc8c8",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/ryY28nXhW/ada.svg",
+    "websiteUrl": "https://www.cardano.org/en/home/",
+    "socials": [
+      {
+        "name": "cardano",
+        "url": "https://twitter.com/cardano",
+        "type": "twitter"
+      },
+      {
+        "name": "r/cardano",
+        "url": "https://www.reddit.com/r/cardano/",
+        "type": "reddit"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucbq9vgfezru1yri1zdcttgg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/groups/cardanocommunity",
+        "type": "facebook"
+      },
+      {
+        "name": "input-output-hk/cardano-sl",
+        "url": "https://github.com/input-output-hk/cardano-sl",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.cardano.org",
+        "type": "website",
+        "url": "https://www.cardano.org/en/home/"
+      },
+      {
+        "name": "cardano",
+        "url": "https://twitter.com/cardano",
+        "type": "twitter"
+      },
+      {
+        "name": "r/cardano",
+        "url": "https://www.reddit.com/r/cardano/",
+        "type": "reddit"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/groups/cardanocommunity",
+        "type": "facebook"
+      },
+      {
+        "name": "input-output-hk/cardano-sl",
+        "url": "https://github.com/input-output-hk/cardano-sl",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 240,
+    "numberOfExchanges": 94,
+    "type": "coin",
+    "volume": 2938938247,
+    "marketCap": 36981058071,
+    "price": "1.1886243858",
+    "circulatingSupply": 31112484745,
+    "totalSupply": 31112484745,
+    "approvedSupply": true,
+    "firstSeen": 1506902400000,
+    "listedAt": 1506902400,
+    "change": 13.5,
+    "rank": 7,
+    "history": [
+      "1.047231719",
+      "1.0332521678",
+      "1.0722607508",
+      "1.1191203467",
+      "1.1220856137",
+      "1.0787095478",
+      "1.0846387699",
+      "1.0880068165",
+      "1.1048507106",
+      "1.1072438529",
+      "1.1110544932",
+      "1.1298906736",
+      "1.1415202103",
+      "1.1527287308",
+      "1.1350821114",
+      "1.137975039",
+      "1.1562558774",
+      "1.1287209988",
+      "1.1376040168",
+      "1.1462623161",
+      "1.1565897077",
+      "1.1641856155",
+      "1.1734635381",
+      "1.1868214815",
+      "1.1777123722",
+      "1.194750804",
+      "1.1886243858"
+    ],
+    "allTimeHigh": {
+      "price": "1.4792150048125265",
+      "timestamp": 1618358400000
+    },
+    "penalty": false
+  }
+}

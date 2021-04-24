@@ -1,0 +1,110 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 45,
+    "uuid": "dxdb6-i4IQv87",
+    "slug": "bytom-btm",
+    "symbol": "BTM",
+    "name": "Bytom",
+    "description": "Bytom is a blockchain with multiple byte assets and a proof of work consensus mechanism, that aims to achieve high speed transactions through a multi layered system.",
+    "color": "#323333",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/HJX2LIdu-/btm.svg",
+    "websiteUrl": "https://bytom.io/",
+    "socials": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/bytomofficial",
+        "type": "facebook"
+      },
+      {
+        "name": "bytom_official",
+        "url": "https://twitter.com/bytom_official",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bytomblockchain",
+        "url": "https://www.reddit.com/r/bytomblockchain/",
+        "type": "reddit"
+      },
+      { "name": "bytom", "url": "https://github.com/bytom", "type": "github" },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1975390.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/bytomofficial",
+        "type": "facebook"
+      },
+      {
+        "name": "bytom_official",
+        "url": "https://twitter.com/bytom_official",
+        "type": "twitter"
+      },
+      {
+        "name": "r/bytomblockchain",
+        "url": "https://www.reddit.com/r/bytomblockchain/",
+        "type": "reddit"
+      },
+      { "name": "bytom", "url": "https://github.com/bytom", "type": "github" },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1975390.0",
+        "type": "bitcointalk"
+      },
+      { "name": "bytom.io", "type": "website", "url": "https://bytom.io/" }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 110,
+    "numberOfExchanges": 49,
+    "type": "coin",
+    "volume": 63134696,
+    "marketCap": 289660848,
+    "price": "0.1732297079",
+    "circulatingSupply": 1672119937.5,
+    "totalSupply": 2100000000,
+    "approvedSupply": true,
+    "firstSeen": 1417478400000,
+    "listedAt": 1417478400,
+    "change": 0.74,
+    "rank": 156,
+    "history": [
+      "0.1719489989",
+      "0.1709208277",
+      "0.1756455607",
+      "0.1794067008",
+      "0.1761553979",
+      "0.1713572714",
+      "0.1719343424",
+      "0.1724288923",
+      "0.1726624976",
+      "0.1698849075",
+      "0.1695589913",
+      "0.1731336272",
+      "0.17429003",
+      "0.1737538853",
+      "0.1715379975",
+      "0.1700094469",
+      "0.1753652227",
+      "0.1703914562",
+      "0.1701510306",
+      "0.1692205904",
+      "0.1706637325",
+      "0.1718589631",
+      "0.1738892588",
+      "0.175022889",
+      "0.1720654891",
+      "0.1734610315",
+      "0.1732297079"
+    ],
+    "allTimeHigh": {
+      "price": "1.7400000004336593",
+      "timestamp": 1498176000000
+    },
+    "penalty": false
+  }
+}

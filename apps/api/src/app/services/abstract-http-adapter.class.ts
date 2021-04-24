@@ -6,7 +6,7 @@ import {
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export abstract class HttpFactoryClass {
+export abstract class AbstractHttpAdapter {
   abstract getLocalHeaders(): ILocalRequestHeaders;
   abstract getSingleSimpleStockData(
     stockId: number

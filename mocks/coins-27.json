@@ -1,0 +1,157 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 27,
+    "uuid": "-8WmRrc-b_6dN",
+    "slug": "lisk-lsk",
+    "symbol": "LSK",
+    "name": "Lisk",
+    "description": "Lisk is a blockchain application platform that hosts decentralized applications built in JavaScript. The platform uses sidechains to achieve reliability and scalability on the main chain.",
+    "color": "#23508e",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/SJTGUIozm/lisk.svg",
+    "websiteUrl": "https://lisk.io/",
+    "socials": [
+      { "name": "Medium", "url": "https://blog.lisk.io/", "type": "medium" },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/liskhq/",
+        "type": "facebook"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://twitter.com/liskhq",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucuqpgfg_boq8ja4pj811pwg/featured",
+        "type": "youtube"
+      },
+      {
+        "name": "r/lisk",
+        "url": "https://www.reddit.com/r/lisk/",
+        "type": "reddit"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://www.instagram.com/liskhq/",
+        "type": "instagram"
+      },
+      {
+        "name": "lisknews",
+        "url": "https://telegram.me/lisknews",
+        "type": "telegram"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/vspfumk",
+        "type": "discord"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://github.com/liskhq",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1346646",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      { "name": "Medium", "url": "https://blog.lisk.io/", "type": "medium" },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/liskhq/",
+        "type": "facebook"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://twitter.com/liskhq",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucuqpgfg_boq8ja4pj811pwg/featured",
+        "type": "youtube"
+      },
+      {
+        "name": "r/lisk",
+        "url": "https://www.reddit.com/r/lisk/",
+        "type": "reddit"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://www.instagram.com/liskhq/",
+        "type": "instagram"
+      },
+      {
+        "name": "lisknews",
+        "url": "https://telegram.me/lisknews",
+        "type": "telegram"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.gg/vspfumk",
+        "type": "discord"
+      },
+      {
+        "name": "liskhq",
+        "url": "https://github.com/liskhq",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1346646",
+        "type": "bitcointalk"
+      },
+      { "name": "lisk.io", "type": "website", "url": "https://lisk.io/" }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 106,
+    "numberOfExchanges": 42,
+    "type": "coin",
+    "volume": 69856660,
+    "marketCap": 530289984,
+    "price": "4.1485208286",
+    "circulatingSupply": 127826279.78599489,
+    "totalSupply": 143794581,
+    "approvedSupply": true,
+    "firstSeen": 1487721600000,
+    "listedAt": 1487721600,
+    "change": 8,
+    "rank": 121,
+    "history": [
+      "3.8412486228",
+      "3.7535375654",
+      "3.9357274878",
+      "4.1483000211",
+      "4.0798649218",
+      "3.843368922",
+      "3.8747236143",
+      "3.893476651",
+      "3.9338189612",
+      "3.9898010277",
+      "3.9644477264",
+      "4.0298705801",
+      "4.0993392364",
+      "4.1082220411",
+      "4.0523579866",
+      "4.1073290213",
+      "4.1498572189",
+      "4.0510991161",
+      "4.0331591084",
+      "4.0098311325",
+      "4.0803212537",
+      "4.1110188334",
+      "4.1214709447",
+      "4.1703071338",
+      "4.0958550886",
+      "4.1573649861",
+      "4.1485208286"
+    ],
+    "allTimeHigh": { "price": "35.1304186122936", "timestamp": 1515369600000 },
+    "penalty": false
+  }
+}

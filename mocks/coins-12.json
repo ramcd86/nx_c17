@@ -1,0 +1,127 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 12,
+    "uuid": "LtWwuVANwRzV_",
+    "slug": "iota-miota",
+    "symbol": "MIOTA",
+    "name": "IOTA",
+    "description": "<p>IOTA (MIOTA) is a cryptocurrency focussing on the internet of things. By using a tangle instead of a blockchain, it achieves a high level of transaction throughput. Besides, the network doesn't charge transaction fees, which makes microtransactions a reality.</p>\n<h3>The goal of Iota</h3>\n<p>IOTA’s goal is to establish a digital ledger technology (DLT) for the Internet of Things (IoT). Their vision contains three fundamental parts. The first is scalability: process a substantial number of transactions per second across a large network of nodes, with fast confirmation times. The second is lightweight: low-power devices should be able to directly participate in the network. And the third is feeless: sending transactions should not require payment of network fees.</p>\n<h3>Who started Iota</h3>\n<p>In 2015, IOTA was founded by David Sonstebo, Sergey Ivancheglo, Dominik Schiener, and Dr. Serguei Popov. IOTA is controlled by the IOTA Foundation, which is a non-profit dedicated to developing the technology and maintaining it license-free for all developers to work with.</p>",
+    "color": "#000",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/H1IQ9Bdd-/miota.svg",
+    "websiteUrl": "http://iota.org/",
+    "socials": [
+      {
+        "name": "iotatoken",
+        "url": "https://twitter.com/iotatoken",
+        "type": "twitter"
+      },
+      {
+        "name": "iotatangle",
+        "url": "https://t.me/iotatangle",
+        "type": "telegram"
+      },
+      {
+        "name": "r/iota",
+        "url": "https://www.reddit.com/r/iota/",
+        "type": "reddit"
+      },
+      { "name": "Medium", "url": "https://blog.iota.org/", "type": "medium" },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1216479.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/iotatoken/",
+        "type": "facebook"
+      },
+      {
+        "name": "iotaledger",
+        "url": "https://github.com/iotaledger",
+        "type": "github"
+      }
+    ],
+    "links": [
+      { "name": "iota.org", "type": "website", "url": "http://iota.org/" },
+      {
+        "name": "iotatoken",
+        "url": "https://twitter.com/iotatoken",
+        "type": "twitter"
+      },
+      {
+        "name": "iotatangle",
+        "url": "https://t.me/iotatangle",
+        "type": "telegram"
+      },
+      {
+        "name": "r/iota",
+        "url": "https://www.reddit.com/r/iota/",
+        "type": "reddit"
+      },
+      { "name": "Medium", "url": "https://blog.iota.org/", "type": "medium" },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1216479.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/iotatoken/",
+        "type": "facebook"
+      },
+      {
+        "name": "iotaledger",
+        "url": "https://github.com/iotaledger",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 65,
+    "numberOfExchanges": 21,
+    "type": "coin",
+    "volume": 257384062,
+    "marketCap": 4995468317,
+    "price": "1.7972347155",
+    "circulatingSupply": 2779530283,
+    "totalSupply": 2779530283,
+    "approvedSupply": true,
+    "firstSeen": 1497364209000,
+    "listedAt": 1497364209,
+    "change": 7.07,
+    "rank": 29,
+    "history": [
+      "1.6785310793",
+      "1.6534725147",
+      "1.710845031",
+      "1.7733351783",
+      "1.7798394155",
+      "1.7272427978",
+      "1.7495491917",
+      "1.757433659",
+      "1.7809264439",
+      "1.7734487638",
+      "1.7632592404",
+      "1.8066213965",
+      "1.8389707781",
+      "1.8727203485",
+      "1.8282157475",
+      "1.8269441728",
+      "1.8513503736",
+      "1.7875850538",
+      "1.7806581771",
+      "1.7725995734",
+      "1.8070198231",
+      "1.8091978892",
+      "1.8287658692",
+      "1.8390254567",
+      "1.7982428886",
+      "1.8117738119",
+      "1.7972347155"
+    ],
+    "allTimeHigh": { "price": "5.773849630683582", "timestamp": 1513641600000 },
+    "penalty": false
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 8,
+    "uuid": "HIVsRcGKkPFtW",
+    "slug": "tetherusd-usdt",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "description": "<p>Tether (USDT) has pegged its USDT tokens to the price of the US dollar by using blockchain technology. Tether belongs to the category cryptocurrencies called stablecoins that aims to keep cryptocurrency valuations stable, in opposition to other cryptocurrencies, such as Bitcoin and Ethereum.</p>\n<h3>The goal of Tether</h3>\n<p>Tether was designed to build a bridge between cryptocurrencies and fiat currencies, with the benefits of cross-border payments facilitated by blockchain technology. Its purpose is to provide a token that represents a fiat currency at a 1:1 ratio, with in this case US dollar.</p>\n<h3>Who started Tether</h3>\n<p>In July 2014, Tether was first launched as RealCoin. Later it was rebranded as Tether in November 2014 by Tether Ltd., the company that is responsible for maintaining the reserve amounts of fiat currency. It started trading in February 2015. The project was initially founded by Bitcoin Foundation director Brock Pierce, software engineer Craig Sellars, and entrepreneur Reeve Collins.</p>",
+    "color": "#22a079",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/mgHqwlCLj/usdt.svg",
+    "websiteUrl": "https://tether.to/",
+    "socials": [
+      {
+        "name": "tether_to",
+        "url": "https://twitter.com/tether_to",
+        "type": "twitter"
+      },
+      {
+        "name": "r/tether",
+        "url": "https://www.reddit.com/r/tether/",
+        "type": "reddit"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/tether.to",
+        "type": "facebook"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.linkedin.com",
+        "url": "https://www.linkedin.com/company/tether",
+        "type": "linkedin"
+      },
+      { "name": "tether.to", "url": "https://tether.to/", "type": "website" },
+      {
+        "name": "tether_to",
+        "url": "https://twitter.com/tether_to",
+        "type": "twitter"
+      },
+      {
+        "name": "r/tether",
+        "url": "https://www.reddit.com/r/tether/",
+        "type": "reddit"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/tether.to",
+        "type": "facebook"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 12721,
+    "numberOfExchanges": 240,
+    "type": "coin",
+    "volume": 87314584579,
+    "marketCap": 49930399135,
+    "price": "1.0072043632",
+    "circulatingSupply": 49573255398.19228,
+    "totalSupply": 49735615769.79,
+    "approvedSupply": true,
+    "firstSeen": 1420761600000,
+    "listedAt": 1420761600,
+    "change": 0.36,
+    "rank": 5,
+    "history": [
+      "1.0035953842",
+      "1.0038349226",
+      "1.0043275696",
+      "1.0057105057",
+      "1.0056005128",
+      "1.0047743647",
+      "1.0048531499",
+      "1.0052374645",
+      "1.0047376754",
+      "1.0048845413",
+      "1.0046777926",
+      "1.0042974139",
+      "1.0040592642",
+      "1.0039145953",
+      "1.0037638196",
+      "1.0037496817",
+      "1.0038033269",
+      "1.004064151",
+      "1.0054663484",
+      "1.0058347535",
+      "1.0065505116",
+      "1.0083923133",
+      "1.0076717498",
+      "1.0076964378",
+      "1.0063541535",
+      "1.0068797108",
+      "1.0072043632"
+    ],
+    "allTimeHigh": { "price": "2.00000000065111", "timestamp": 1469145600000 },
+    "penalty": false
+  }
+}

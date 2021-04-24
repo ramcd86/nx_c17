@@ -1,0 +1,88 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 16,
+    "uuid": "hnfQfsYfeIGUQ",
+    "slug": "ethereumclassic-etc",
+    "symbol": "ETC",
+    "name": "Ethereum Classic",
+    "description": "<p>Ethereum Classic (ETC)  is a decentralized smart contracts platform which is a continuation of the Ethereum blockchain. Ethereum Classic preserves original history, excluding external interference and altered transactions. Applications are run exactly as programmed without the possibility of censorship, downtime, or third-party interference. The distributed network consists of a blockchain ledger, native cryptocurrency, and robust ecosystem of on-chain applications and services.</p>\n<h3>The goal of Ethereum Classic</h3>\n<p>The goal of the original project Ethereum was to expand the use cases for cryptocurrencies to applications beyond money. Ethereum enables developers to create new cryptocurrencies and decentralized applications running on top of its blockchain. Ethereum Classic aims to continue this vision. It differs from Ethereum in its technical decisions, made by the developers.</p>\n<h3>Who started Ethereum Classic</h3>\n<p>It’s difficult to say who created Ethereum Classic. The developer most associated with the decision to continue maintaining the original Ethereum is the anonymous Arvicco. Some say, because much of this code is from the original Ethereum developers, that Ethereum’s founder Vitalik Buterin, and his team can be seen as the ones responsible for most of Ethereum Classic’s technical innovations.</p>",
+    "color": "#699070",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/rJfyor__W/etc.svg",
+    "websiteUrl": "https://ethereumclassic.github.io/",
+    "socials": [],
+    "links": [
+      {
+        "name": "ethereumclassic.github.io",
+        "type": "website",
+        "url": "https://ethereumclassic.github.io/"
+      },
+      {
+        "name": "twitter.com",
+        "url": "twitter.com/eth_classic",
+        "type": "twitter"
+      },
+      {
+        "name": "EthereumClassic",
+        "url": "https://www.reddit.com/r/EthereumClassic/",
+        "type": "reddit"
+      },
+      {
+        "name": "discord.com",
+        "url": "https://discord.com/invite/HW4GckH",
+        "type": "discord"
+      },
+      {
+        "name": "ethereumclassic",
+        "url": "https://github.com/ethereumclassic",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 387,
+    "numberOfExchanges": 140,
+    "type": "coin",
+    "volume": 2569088125,
+    "marketCap": 3743807990,
+    "price": "32.1872737018",
+    "circulatingSupply": 116313299,
+    "totalSupply": 107988299,
+    "approvedSupply": true,
+    "firstSeen": 1469577600000,
+    "listedAt": 1469577600,
+    "change": 9.33,
+    "rank": 35,
+    "history": [
+      "29.4407563984",
+      "29.0375337981",
+      "30.1446836183",
+      "31.5523438731",
+      "31.8148881803",
+      "30.5072568242",
+      "30.8214017421",
+      "30.7943541519",
+      "31.0603920713",
+      "30.9677909765",
+      "30.8456925444",
+      "31.5933920616",
+      "32.0520982206",
+      "32.0337185508",
+      "31.9638482497",
+      "32.8162716641",
+      "33.1633386121",
+      "31.8700787957",
+      "31.8906222265",
+      "31.8937084438",
+      "32.5649606545",
+      "32.6156693622",
+      "32.8109404939",
+      "32.7299174427",
+      "32.0883590546",
+      "32.5070326725",
+      "32.1872737018"
+    ],
+    "allTimeHigh": { "price": "44.37850535086762", "timestamp": 1618617600000 },
+    "penalty": false
+  }
+}

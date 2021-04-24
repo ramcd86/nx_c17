@@ -1,0 +1,101 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 41,
+    "uuid": "UqnDh38uRI-Br",
+    "slug": "finamatrix-fix",
+    "symbol": "FIX",
+    "name": "Finamatrix",
+    "description": "Finamatrix is an A.I. technology firm which aims to offer financial intelligence to provide robust risk management and predictable returns. There are two tokens used to pay for the services provided by Finamatrix called FIX and FIXX where FIX is mainly a staking token and FIXX is a reward token. Both tokens run on the Waves blockchain.",
+    "color": null,
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/WnYQJXAAy/fix.svg",
+    "websiteUrl": "https://finamatrix.com/",
+    "socials": [],
+    "links": [
+      {
+        "name": "finamatrix.com",
+        "url": "https://finamatrix.com/",
+        "type": "website"
+      },
+      {
+        "name": "finamatrix",
+        "url": "https://twitter.com/finamatrix",
+        "type": "twitter"
+      },
+      {
+        "name": "finamatrix",
+        "url": "https://t.me/finamatrix",
+        "type": "telegram"
+      },
+      {
+        "name": "@finamatrix",
+        "url": "https://medium.com/@finamatrix/",
+        "type": "medium"
+      },
+      {
+        "name": "finamatrix",
+        "url": "https://www.facebook.com/finamatrix",
+        "type": "facebook"
+      },
+      {
+        "name": "finamatrix",
+        "url": "https://github.com/finamatrix",
+        "type": "github"
+      },
+      {
+        "name": "Block explorer",
+        "url": "https://wavesdesk.com/asset/GS5RfWDS8ytVnxqr7M2pnqeFuu7BpSwGnADTcw23FvbZ",
+        "type": "explorer"
+      }
+    ],
+    "confirmedSupply": false,
+    "numberOfMarkets": 5,
+    "numberOfExchanges": 1,
+    "type": "coin",
+    "volume": null,
+    "marketCap": 0,
+    "price": "0",
+    "circulatingSupply": 82765925.99963906,
+    "totalSupply": 99999995.98999956,
+    "approvedSupply": false,
+    "firstSeen": 1509235200000,
+    "listedAt": 1509235200,
+    "change": null,
+    "rank": 7184,
+    "history": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "0"
+    ],
+    "allTimeHigh": {
+      "price": "115875358.81150848",
+      "timestamp": 1543708800000
+    },
+    "penalty": true
+  }
+}

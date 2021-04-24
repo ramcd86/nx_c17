@@ -1,0 +1,113 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 43,
+    "uuid": "J8xX4Fc9PxEat",
+    "slug": "waves-waves",
+    "symbol": "WAVES",
+    "name": "Waves",
+    "description": "<p>Waves (WAVES) is an open blockchain protocol and development toolset for Web 3.0 applications and decentralized solutions, aiming to raise security, reliability and speed of IT systems. It enables anyone to build their apps, fostering mass adoption of blockchain.</p>\n<h3>The goal of Waves</h3>\n<p>Waves is an open blockchain protocol and development toolset for Web 3.0 applications and decentralized solutions, aiming to raise security, reliability, and speed of IT systems. Its goal is to enable anyone to build their apps, fostering mass adoption of blockchain. The project is developed to provide users with the opportunity of creating their own new custom token. Those tokens may be used for loyalty programs, in-app currency creation, and for ICO founding.</p>\n<h3>Who started Waves</h3>\n<p>Entrepreneur Alexander (Sasha) Ivanov is the Waves cryptocurrency platform founder and CEO. He started the project in 2016. The blockchain platform launch campaign raised $16 million, becoming one of the largest in terms of funds raised through crowdfunding.</p>",
+    "color": "#0056FF",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/B1tzRbyMz/waves.svg",
+    "websiteUrl": "https://wavesplatform.com/",
+    "socials": [],
+    "links": [
+      {
+        "name": "www.linkedin.cn",
+        "url": "https://www.linkedin.cn/company/waves-platform/",
+        "type": "linkedin"
+      },
+      {
+        "name": "Staking guide",
+        "url": "https://waves.tech/",
+        "type": "website"
+      },
+      {
+        "name": "PyWaves Statistics",
+        "url": "https://dev.pywaves.org/",
+        "type": "website"
+      },
+      {
+        "name": "wavesprotocol",
+        "url": "https://twitter.com/wavesprotocol",
+        "type": "twitter"
+      },
+      {
+        "name": "wavesnews ",
+        "url": "https://t.me/wavesnews ",
+        "type": "telegram"
+      },
+      {
+        "name": "Wavescommunity",
+        "url": "https://t.me/Wavescommunity",
+        "type": "telegram"
+      },
+      {
+        "name": "r/wavesplatform",
+        "url": "https://www.reddit.com/r/wavesplatform",
+        "type": "reddit"
+      },
+      {
+        "name": "medium.com",
+        "url": "https://medium.com/wavesprotocol",
+        "type": "medium"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/UCYDQN4Fo4rGnOZ22L5plNIw",
+        "type": "youtube"
+      },
+      {
+        "name": "wavesplatform",
+        "url": "https://github.com/wavesplatform/",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 685,
+    "numberOfExchanges": 78,
+    "type": "coin",
+    "volume": 338046810,
+    "marketCap": 1487764705,
+    "price": "14.1858831333",
+    "circulatingSupply": 104876424.75560874,
+    "totalSupply": 104909446,
+    "approvedSupply": true,
+    "firstSeen": 1466380800000,
+    "listedAt": 1466380800,
+    "change": 12.69,
+    "rank": 74,
+    "history": [
+      "12.5886240253",
+      "12.3855544848",
+      "12.7757861041",
+      "13.5976192067",
+      "13.9181562911",
+      "13.4365298579",
+      "13.5755777328",
+      "13.7071609609",
+      "14.2514020403",
+      "14.8174371071",
+      "14.9511214174",
+      "15.2304705826",
+      "15.6074857128",
+      "15.1984013599",
+      "15.0037223039",
+      "14.8035047034",
+      "14.8524335784",
+      "14.3169438979",
+      "14.3017657241",
+      "14.301602199",
+      "14.4297206223",
+      "14.415161101",
+      "14.4397349981",
+      "14.5188935718",
+      "14.0818134784",
+      "14.418752564",
+      "14.1858831333"
+    ],
+    "allTimeHigh": { "price": "18.80656952488591", "timestamp": 1617926400000 },
+    "penalty": false
+  }
+}

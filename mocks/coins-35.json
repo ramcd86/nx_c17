@@ -1,0 +1,107 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 35,
+    "uuid": "rcob7NHLyEr3p",
+    "slug": "nano-nano",
+    "symbol": "NANO",
+    "name": "Nano",
+    "description": "Nano (RaiBlocks before the rebranding) is a cryptocurrency designed for everyday use. Peer-to-peer transactions on its blockchain are free, instant and scalable.",
+    "color": "#4a90e2",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/HygqO-iPM/nano.svg",
+    "websiteUrl": "https://nano.org/en",
+    "socials": [
+      {
+        "name": "@nanocurrency",
+        "url": "https://medium.com/@nanocurrency",
+        "type": "medium"
+      },
+      { "name": "nano", "url": "https://twitter.com/nano", "type": "twitter" },
+      {
+        "name": "r/nanocurrency",
+        "url": "https://reddit.com/r/nanocurrency",
+        "type": "reddit"
+      },
+      {
+        "name": "nanocurrency",
+        "url": "https://github.com/nanocurrency",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1381323.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "@nanocurrency",
+        "url": "https://medium.com/@nanocurrency",
+        "type": "medium"
+      },
+      { "name": "nano", "url": "https://twitter.com/nano", "type": "twitter" },
+      {
+        "name": "r/nanocurrency",
+        "url": "https://reddit.com/r/nanocurrency",
+        "type": "reddit"
+      },
+      {
+        "name": "nanocurrency",
+        "url": "https://github.com/nanocurrency",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1381323.0",
+        "type": "bitcointalk"
+      },
+      { "name": "nano.org", "type": "website", "url": "https://nano.org/en" }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 103,
+    "numberOfExchanges": 35,
+    "type": "coin",
+    "volume": 183712192,
+    "marketCap": 1312707086,
+    "price": "9.8515868039",
+    "circulatingSupply": 133248289,
+    "totalSupply": 133248289,
+    "approvedSupply": true,
+    "firstSeen": 1488844800000,
+    "listedAt": 1488844800,
+    "change": 32.49,
+    "rank": 79,
+    "history": [
+      "7.4358065269",
+      "9.3196271693",
+      "9.8619718017",
+      "10.0717756645",
+      "10.102330435",
+      "9.926907157",
+      "9.966984279",
+      "9.3583717067",
+      "9.485911118",
+      "10.0870932523",
+      "10.1740096423",
+      "10.1351896327",
+      "10.1165217075",
+      "10.2086309",
+      "10.1311176387",
+      "10.3510562778",
+      "10.1770253276",
+      "9.9494777501",
+      "9.7222167963",
+      "9.6843929828",
+      "9.7368268734",
+      "9.8737907381",
+      "10.0563371402",
+      "9.9863623911",
+      "9.7634919584",
+      "9.8792459249",
+      "9.8515868039"
+    ],
+    "allTimeHigh": { "price": "33.31253353721617", "timestamp": 1515196800000 },
+    "penalty": false
+  }
+}

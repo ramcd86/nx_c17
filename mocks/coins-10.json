@@ -1,0 +1,112 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 10,
+    "uuid": "3mVx2FX_iJFp5",
+    "slug": "monero-xmr",
+    "symbol": "XMR",
+    "name": "Monero",
+    "description": "<p>Monero (XMR) is a cryptocurrency which focuses on being untraceable and private. It differs from Bitcoin's in a few key ways, but is very similar to Bitcoin: it’s an anonymous version of Bitcoin. It can be used to buy and sell things, and be exchanged for other coins or tokens.</p>\n<h3>The goal of Monero</h3>\n<p>The privacy features of Monero gives it its most value. No one can link Monero cryptocurrency transactions to a person. Monero is also created for its fungibility, all Monero coins are identical and mutually interchangeable. Monero has dynamic scalability, which means it has no “pre-set” block size limit. Monero has ASIC resistance and multiple keys.</p>\n<h3>Who started Monero</h3>\n<p>Bytecoin, launched in 2012, was the precursor of Monero. It was the first digital currency that was written using a technology called CryptoNote. CryptoNote is the spine of most of the privacy-based cryptocurrencies that exist, including Monero. However, there were a few issues with Bytecoin, which lead to a group of seven developers to fork the Bytecoin blockchain. The new currency would be known as Bitmonero, later named Monero. Five of the seven developers decided to stay anonymous. Only two of these Monero developers are known: Riccardo Spagni and David Latapie.</p>",
+    "color": "#ff7519",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/Syz-oSd_Z/xmr.svg",
+    "websiteUrl": "https://getmonero.org/",
+    "socials": [
+      {
+        "name": "monerocurrency",
+        "url": "https://twitter.com/monerocurrency",
+        "type": "twitter"
+      },
+      {
+        "name": "bitmonero",
+        "url": "https://telegram.me/bitmonero",
+        "type": "telegram"
+      },
+      {
+        "name": "r/monero",
+        "url": "https://reddit.com/r/monero",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=583449.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "getmonero.org",
+        "type": "website",
+        "url": "https://getmonero.org/"
+      },
+      {
+        "name": "monero",
+        "url": "https://twitter.com/monero",
+        "type": "twitter"
+      },
+      {
+        "name": "bitmonero",
+        "url": "https://telegram.me/bitmonero",
+        "type": "telegram"
+      },
+      {
+        "name": "r/monero",
+        "url": "https://reddit.com/r/monero",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=583449.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 705,
+    "numberOfExchanges": 112,
+    "type": "coin",
+    "volume": 467096362,
+    "marketCap": 6606847667,
+    "price": "369.2194476536",
+    "circulatingSupply": 17894094.44343485,
+    "totalSupply": 17894094.44343485,
+    "approvedSupply": true,
+    "firstSeen": 1422489600000,
+    "listedAt": 1422489600,
+    "change": 11.87,
+    "rank": 24,
+    "history": [
+      "330.0335923562",
+      "325.4448233825",
+      "332.2329625004",
+      "338.2482424485",
+      "336.7392873415",
+      "328.554736329",
+      "331.5878440461",
+      "335.0050718747",
+      "339.0018235326",
+      "339.5720358633",
+      "339.2211977075",
+      "343.3620317074",
+      "342.5208475931",
+      "342.8953743595",
+      "339.1199675146",
+      "344.9662723861",
+      "352.6439300407",
+      "344.575416725",
+      "345.0230486176",
+      "351.7224757163",
+      "359.7423620606",
+      "363.815628308",
+      "366.5196637153",
+      "369.9890282721",
+      "361.741296208",
+      "366.6948493561",
+      "369.2194476536"
+    ],
+    "allTimeHigh": {
+      "price": "447.98507184923585",
+      "timestamp": 1515369600000
+    },
+    "penalty": false
+  }
+}

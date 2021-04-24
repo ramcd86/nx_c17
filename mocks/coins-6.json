@@ -1,0 +1,127 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 6,
+    "uuid": "f3iaFeCKEmkaZ",
+    "slug": "stellar-xlm",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "description": "<p>Stellar is an open-source, decentralized payment protocol that allows fast, cross-border payments between any pair of currencies, at almost no cost. Its native asset, originally known as Stellar, was later called Lumens (XLM). XLM powers the Stellar network and all of its operations.</p>\n<h3>The goal of Stellar</h3>\n<p>Stellar makes it possible to create, send, and trade digital representations of all forms of money: dollars, pesos, bitcoin, pretty much anything. It’s designed so all the world’s financial systems can work together on a single network. With this financial system they fight poverty and help develop individual potential. Stellar is useful and valuable because it is capable of hosting thousands of exchanges between currencies and tokens per second.</p>\n<h3>Who started Stellar</h3>\n<p>In 2014, Jed McCaleb, founder of Mt. Gox and co-founder of Ripple, launched the network system Stellar with former lawyer Joyce Kim. The nonprofit Stellar Development Foundation was created in collaboration with Stripe CEO Patrick Collison, later in 2014. This foundation employs technologists, scientists, designers, and businesspeople, all dedicated to building a more inclusive global marketplace. Their goal is to unlock the world’s economic potential by making money more fluid and people more empowered.</p>",
+    "color": "#000000",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/78CxK1xsp/Stellar_symbol_black_RGB.svg",
+    "websiteUrl": "https://www.stellar.org/",
+    "socials": [
+      {
+        "name": "stellarorg",
+        "url": "https://twitter.com/stellarorg",
+        "type": "twitter"
+      },
+      {
+        "name": "r/stellar",
+        "url": "https://www.reddit.com/r/stellar",
+        "type": "reddit"
+      },
+      {
+        "name": "BitcoinTalk",
+        "url": "https://bitcointalk.org/index.php?topic=1428573.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/stellarfoundation",
+        "type": "facebook"
+      },
+      {
+        "name": "stellar",
+        "url": "https://github.com/stellar",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.stellar.org",
+        "type": "website",
+        "url": "https://www.stellar.org/"
+      },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/stellar",
+        "type": "website"
+      },
+      {
+        "name": "stellarorg",
+        "url": "https://twitter.com/stellarorg",
+        "type": "twitter"
+      },
+      {
+        "name": "r/stellar",
+        "url": "https://www.reddit.com/r/stellar",
+        "type": "reddit"
+      },
+      {
+        "name": "BitcoinTalk",
+        "url": "https://bitcointalk.org/index.php?topic=1428573.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/stellarfoundation",
+        "type": "facebook"
+      },
+      {
+        "name": "stellar",
+        "url": "https://github.com/stellar",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 765,
+    "numberOfExchanges": 133,
+    "type": "coin",
+    "volume": 1463620784,
+    "marketCap": 8881112016,
+    "price": "0.4395388215",
+    "circulatingSupply": 20205523566.63592,
+    "totalSupply": 49999999738.63592,
+    "approvedSupply": true,
+    "firstSeen": 1484611200000,
+    "listedAt": 1484611200,
+    "change": 7.25,
+    "rank": 20,
+    "history": [
+      "0.4098168998",
+      "0.4068525956",
+      "0.4165974411",
+      "0.4266274119",
+      "0.426846566",
+      "0.41902147",
+      "0.4236332828",
+      "0.4256957932",
+      "0.4279281835",
+      "0.4321038471",
+      "0.435478806",
+      "0.4407840469",
+      "0.4501163484",
+      "0.4473460733",
+      "0.4446204072",
+      "0.4497198307",
+      "0.4508711881",
+      "0.4460238873",
+      "0.453799464",
+      "0.4525553032",
+      "0.4552942839",
+      "0.4501204034",
+      "0.4478962172",
+      "0.4451021416",
+      "0.4397688542",
+      "0.4429074139",
+      "0.4395388215"
+    ],
+    "allTimeHigh": {
+      "price": "0.8388618719671962",
+      "timestamp": 1515110400000
+    },
+    "penalty": false
+  }
+}

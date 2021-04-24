@@ -1,0 +1,142 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 34,
+    "uuid": "3jmxrjOJ8xa4p",
+    "slug": "zilliqa-zil",
+    "symbol": "ZIL",
+    "name": "Zilliqa",
+    "description": "Zilliqa is a currency token on the Zilliqa blockchain, that aims to issue security and scalability problems of blockchain technology, by using proof of work as authorizing protection and not as consensus mechanism. The DS consensus mechanism is controlled with a automatic penalty and reward system.",
+    "color": "#49c1bf",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/H18JFWswf/zil.svg",
+    "websiteUrl": "https://www.zilliqa.com/",
+    "socials": [
+      {
+        "name": "Medium",
+        "url": "https://blog.zilliqa.com/",
+        "type": "medium"
+      },
+      {
+        "name": "zilliqa",
+        "url": "https://twitter.com/zilliqa",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucvinnfbf0u71cajoxkcfziq",
+        "type": "youtube"
+      },
+      {
+        "name": "r/zilliqa",
+        "url": "https://www.reddit.com/r/zilliqa",
+        "type": "reddit"
+      },
+      {
+        "name": "zilliqachat",
+        "url": "https://t.me/zilliqachat",
+        "type": "telegram"
+      },
+      {
+        "name": "zilliqa",
+        "url": "https://github.com/zilliqa/",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2219655.0",
+        "type": "bitcointalk"
+      }
+    ],
+    "links": [
+      {
+        "name": "Medium",
+        "url": "https://blog.zilliqa.com/",
+        "type": "medium"
+      },
+      {
+        "name": "zilliqa",
+        "url": "https://twitter.com/zilliqa",
+        "type": "twitter"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucvinnfbf0u71cajoxkcfziq",
+        "type": "youtube"
+      },
+      {
+        "name": "r/zilliqa",
+        "url": "https://www.reddit.com/r/zilliqa",
+        "type": "reddit"
+      },
+      {
+        "name": "zilliqachat",
+        "url": "https://t.me/zilliqachat",
+        "type": "telegram"
+      },
+      {
+        "name": "zilliqa",
+        "url": "https://github.com/zilliqa/",
+        "type": "github"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2219655.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "www.zilliqa.com",
+        "type": "website",
+        "url": "https://www.zilliqa.com/"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 174,
+    "numberOfExchanges": 79,
+    "type": "coin",
+    "volume": 229457681,
+    "marketCap": 1951935807,
+    "price": "0.1572728772",
+    "circulatingSupply": 12411140694.652088,
+    "totalSupply": 21000000000,
+    "approvedSupply": true,
+    "firstSeen": 1518566400000,
+    "listedAt": 1518566400,
+    "change": 11.86,
+    "rank": 64,
+    "history": [
+      "0.1406033876",
+      "0.1396900232",
+      "0.1461188342",
+      "0.1511998268",
+      "0.151081173",
+      "0.1459007566",
+      "0.1470581347",
+      "0.1494301801",
+      "0.1520425338",
+      "0.1521230366",
+      "0.1535723808",
+      "0.1558980852",
+      "0.1578034122",
+      "0.1580385492",
+      "0.1553673175",
+      "0.155764897",
+      "0.1589457056",
+      "0.1544282201",
+      "0.1544631244",
+      "0.154089884",
+      "0.1563879464",
+      "0.1572427357",
+      "0.1583413908",
+      "0.1590135237",
+      "0.1558339038",
+      "0.1580403538",
+      "0.1572728772"
+    ],
+    "allTimeHigh": {
+      "price": "0.23606934706039895",
+      "timestamp": 1618617600000
+    },
+    "penalty": false
+  }
+}

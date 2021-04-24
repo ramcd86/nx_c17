@@ -5,25 +5,16 @@ import {
   ICoinQuery,
   ISimpleStockQuery,
 } from '@workspace/api-interfaces';
-import { HttpFactoryClass } from './services/httpfactory.class';
-
-const fs = require('fs');
+import { AbstractHttpAdapter } from './services/abstract-http-adapter.class';
 
 @Controller()
 export class AppController {
   constructor(
-    @Inject('httpBase') readonly _httpBaseService: HttpFactoryClass
+    @Inject('httpBase') readonly _httpBaseService: AbstractHttpAdapter
   ) {}
 
   @Get('coin/:id')
   async getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {
-    // this._httpBaseService.getCoinData().then((res) => {
-    //   console.log('RES!', res)
-    //   fs.writeFile('helloworld.txt', JSON.stringify(res), function (err) {
-    //     if (err) return console.log(err);
-    //     console.log('Hello World > helloworld.txt');
-    //   });
-    // })
     return this._httpBaseService.getSingleSimpleStockData(+params.id);
   }
 

@@ -1,0 +1,132 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 47,
+    "uuid": "hY7W7u5sB_neu",
+    "slug": "electroneum-etn",
+    "symbol": "ETN",
+    "name": "Electroneum",
+    "description": "<p>Electroneum (ETN) is a UK-based cryptocurrency launched in 2017 following a successful ICO achieving the cap at $40 million. The Electroneum platform is designed to provide a mobile-first approach to digital payments, primarily for the world’s unbanked and underbanked populations, which today accounts to more than 1 billion people globally. Starting with the launch of their iOS and Android applications, Electroneum were able to hold and send ETN globally at a fraction of the usual cost. However, it’s their complementary platforms launched in 2019 and onwards that has reportedly led the company to acquiring more than 4 million users worldwide. For instance, hundreds of thousands of people are using Electroneum’s freelance marketplace, AnyTask.com, to sell digital services to others around the world without paying fees or any transfer costs. ETNDonate.com, another platform launched by Electroneum, aims to provide charities with a cost effective way of accepting donations without incurring massive transfer costs, whilst also receiving donations in an instant rather than a matter of days. From a regulatory standpoint, Electroneum has made their support for regulation very clear, having voluntarily introduced KYC and AML compliance procedures in 2018 ahead of the European 5th Anti-Money Laundering Directive.</p>\n<h3>The goal of Electroneum</h3>\n<p>The Electroneum app not only allows people to store and send ETN, but it provides users with in-app purchases. Users can spend their ETN on an ever-increasing number of everyday essentials, including electricity and mobile airtime and data. Hundreds of thousands of in-app purchases have taken place since their introduction, and Electroneum pledges to continue adding more services. In addition, more than 2,000 businesses have begun to accept ETN in-store and online, all of which can be found at the official Electroneum store directory - ETNEverywhere.com.</p>\n<h3>Electroneum technology</h3>\n<p>Electroneum’s blockchain is unique in the way it functions. Coined by Electroneum in 2019, they launched a new type of decentealsied blockchain called Proof of Responsibility (PoR), which consists of a monitoring layer that evaluates the network for security breach attempts. This layer provides Electroneum with a minimal, but sufficient level of interference to secure the network against a double-spend or 51% attack. If hackers were to breach the security of a permissioned validator, the moderating layer would immediately detect the breach and rescind the rights of that miner. It’s this level of security that has assisted Electroneum is developing relationships with companies globally.</p>\n<h3>Electroneum halving schedule</h3>\n<p>In order to keep Electroneum’s inflation rate below 2%, a pledge made by CEO and Founder Richard Ells in July 2020, Electroneum have implemented a series of halving events, the first of which took place in July 2020. Subsequent halving events will take place every four years until 2032. After the 2032 halving, no more block reward reductions are planned until the maximum supply of 21 billion ETN is reached. At which point, the block reward will be reduced from 50 ETN to 25 ETN per block.</p>",
+    "color": "#24b4dd",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/HJvOCDlyM/etn.svg",
+    "websiteUrl": "https://electroneum.com",
+    "socials": [
+      {
+        "name": "electroneum",
+        "url": "https://twitter.com/electroneum",
+        "type": "twitter"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/joinchat/dxosakhodk5mqse-lelfvg",
+        "type": "telegram"
+      },
+      {
+        "name": "r/electroneum",
+        "url": "https://www.reddit.com/r/electroneum/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2065043.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/electroneum",
+        "type": "facebook"
+      },
+      {
+        "name": "electroneum",
+        "url": "https://github.com/electroneum/",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "electroneum.com",
+        "type": "website",
+        "url": "https://electroneum.com"
+      },
+      {
+        "name": "electroneum",
+        "url": "https://twitter.com/electroneum",
+        "type": "twitter"
+      },
+      {
+        "name": "Telegram",
+        "url": "https://t.me/joinchat/dxosakhodk5mqse-lelfvg",
+        "type": "telegram"
+      },
+      {
+        "name": "r/electroneum",
+        "url": "https://www.reddit.com/r/electroneum/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=2065043.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/electroneum",
+        "type": "facebook"
+      },
+      {
+        "name": "electroneum",
+        "url": "https://github.com/electroneum/",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 44,
+    "numberOfExchanges": 19,
+    "type": "coin",
+    "volume": 2270492,
+    "marketCap": 164589060,
+    "price": "0.0206227122",
+    "circulatingSupply": 7980960914,
+    "totalSupply": 8343399791,
+    "approvedSupply": true,
+    "firstSeen": 1509667200000,
+    "listedAt": 1509667200,
+    "change": 12.8,
+    "rank": 210,
+    "history": [
+      "0.0182819298",
+      "0.0181401953",
+      "0.0194712499",
+      "0.0203084809",
+      "0.0206479617",
+      "0.020394531",
+      "0.0200372418",
+      "0.0200845035",
+      "0.0196241216",
+      "0.0196396456",
+      "0.0196087186",
+      "0.0196097132",
+      "0.0196524273",
+      "0.0194407926",
+      "0.0196454104",
+      "0.0198962291",
+      "0.0200584933",
+      "0.0199946929",
+      "0.0201604883",
+      "0.0204355293",
+      "0.0206521136",
+      "0.020650214",
+      "0.0206786235",
+      "0.0209194929",
+      "0.0208776427",
+      "0.0207806209",
+      "0.0206227122"
+    ],
+    "allTimeHigh": {
+      "price": "0.18357877584863025",
+      "timestamp": 1515369600000
+    },
+    "penalty": false
+  }
+}

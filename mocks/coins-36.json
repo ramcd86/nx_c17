@@ -1,0 +1,112 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 36,
+    "uuid": "wPUcJNw024C_y",
+    "slug": "bitcoindiamond-bcd",
+    "symbol": "BCD",
+    "name": "Bitcoin Diamond",
+    "description": "Bitcoin Diamond is a fork of Bitcoin with the aim to improve the scalability, the speed and the costs of Bitcoin by using optimized X13 as a mining algorithm and by increasing the maximum supply and blocksize. Bitcoin Diamond also tries to protect the privacy of their token holders by encrypting the amount and balance.",
+    "color": "#ffc75d",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/ByN45aEm7/bcd.svg",
+    "websiteUrl": "http://www.btcd.io/#/",
+    "socials": [
+      {
+        "name": "bitcoindiamond_",
+        "url": "https://twitter.com/bitcoindiamond_",
+        "type": "twitter"
+      },
+      {
+        "name": "u/bitcoin-diamond",
+        "url": "https://www.reddit.com/user/bitcoin-diamond/",
+        "type": "reddit"
+      },
+      {
+        "name": "bcdsupport",
+        "url": "https://t.me/bcdsupport",
+        "type": "telegram"
+      },
+      {
+        "name": "bitcoin-diamond/bitcoindiamond",
+        "url": "https://github.com/bitcoin-diamond/bitcoindiamond",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "bitcoindiamond_",
+        "url": "https://twitter.com/bitcoindiamond_",
+        "type": "twitter"
+      },
+      {
+        "name": "u/bitcoin-diamond",
+        "url": "https://www.reddit.com/user/bitcoin-diamond/",
+        "type": "reddit"
+      },
+      {
+        "name": "bcdsupport",
+        "url": "https://t.me/bcdsupport",
+        "type": "telegram"
+      },
+      {
+        "name": "bitcoin-diamond/bitcoindiamond",
+        "url": "https://github.com/bitcoin-diamond/bitcoindiamond",
+        "type": "github"
+      },
+      {
+        "name": "www.btcd.io",
+        "type": "website",
+        "url": "http://www.btcd.io/#/"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 68,
+    "numberOfExchanges": 40,
+    "type": "coin",
+    "volume": 19891494,
+    "marketCap": 322616202,
+    "price": "2.0982229394",
+    "circulatingSupply": 153756875,
+    "totalSupply": 156756875,
+    "approvedSupply": true,
+    "firstSeen": 1511568000000,
+    "listedAt": 1511568000,
+    "change": -5.67,
+    "rank": 145,
+    "history": [
+      "2.2243013711",
+      "2.1477066726",
+      "2.1409329293",
+      "2.1595869398",
+      "2.1411001394",
+      "2.0511079889",
+      "2.0520891555",
+      "2.0525449445",
+      "2.0642651141",
+      "2.0916378517",
+      "2.085125542",
+      "2.1381641038",
+      "2.2437891144",
+      "2.1991744726",
+      "2.1561868956",
+      "2.1471379875",
+      "2.2210187768",
+      "2.1353646722",
+      "2.1348822482",
+      "2.1570808164",
+      "2.189431674",
+      "2.1629813167",
+      "2.1377232125",
+      "2.127304892",
+      "2.0795584195",
+      "2.1106653173",
+      "2.0982229394"
+    ],
+    "allTimeHigh": {
+      "price": "116.16766649843055",
+      "timestamp": 1515974400000
+    },
+    "penalty": false
+  }
+}

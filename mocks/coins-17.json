@@ -1,0 +1,122 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 17,
+    "uuid": "DZtb-6X8yCx0h",
+    "slug": "nem-xem",
+    "symbol": "XEM",
+    "name": "NEM",
+    "description": "NEM is a configurable blockchain which implements an enterprise blockchain data system, whilst minimizing its complexity to integrate seamlessly with other existing systems.",
+    "color": "#67b2e8",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/Bkvu9rOOZ/xem.svg",
+    "websiteUrl": "https://nem.io/",
+    "socials": [
+      {
+        "name": "nemofficial",
+        "url": "https://twitter.com/nemofficial",
+        "type": "twitter"
+      },
+      { "name": "nemred", "url": "https://t.me/nemred", "type": "telegram" },
+      {
+        "name": "r/nem",
+        "url": "https://www.reddit.com/r/nem/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=654845.new#new",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/ournem/",
+        "type": "facebook"
+      },
+      {
+        "name": "nemproject",
+        "url": "https://github.com/nemproject",
+        "type": "github"
+      }
+    ],
+    "links": [
+      { "name": "nem.io", "type": "website", "url": "https://nem.io/" },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/nem",
+        "type": "website"
+      },
+      {
+        "name": "nemofficial",
+        "url": "https://twitter.com/nemofficial",
+        "type": "twitter"
+      },
+      { "name": "nemred", "url": "https://t.me/nemred", "type": "telegram" },
+      {
+        "name": "r/nem",
+        "url": "https://www.reddit.com/r/nem/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=654845.new#new",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/ournem/",
+        "type": "facebook"
+      },
+      {
+        "name": "nemproject",
+        "url": "https://github.com/nemproject",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 210,
+    "numberOfExchanges": 77,
+    "type": "coin",
+    "volume": 417803683,
+    "marketCap": 2060271042,
+    "price": "0.2911301422",
+    "circulatingSupply": 7076804298.046602,
+    "totalSupply": 8999999999,
+    "approvedSupply": true,
+    "firstSeen": 1496361600000,
+    "listedAt": 1496361600,
+    "change": 5.17,
+    "rank": 62,
+    "history": [
+      "0.276830866",
+      "0.2779275133",
+      "0.2814816755",
+      "0.2931381347",
+      "0.2893907654",
+      "0.2761204491",
+      "0.2786894533",
+      "0.2791785745",
+      "0.2775841269",
+      "0.2736535982",
+      "0.2695177972",
+      "0.2763643583",
+      "0.2806821594",
+      "0.2822717704",
+      "0.2821659827",
+      "0.2852615774",
+      "0.2887716227",
+      "0.2799092775",
+      "0.2833975635",
+      "0.2845744587",
+      "0.2868439087",
+      "0.2875219709",
+      "0.2925383542",
+      "0.2961620662",
+      "0.2881657327",
+      "0.2932232694",
+      "0.2911301422"
+    ],
+    "allTimeHigh": { "price": "1.80823794274015", "timestamp": 1515110400000 },
+    "penalty": false
+  }
+}

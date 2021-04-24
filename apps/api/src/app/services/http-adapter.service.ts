@@ -5,10 +5,10 @@ import {
   ICoinQuery,
 } from '@workspace/api-interfaces';
 import { ConfigService } from './config.service';
-import { HttpFactoryClass } from './httpfactory.class';
+import { AbstractHttpAdapter } from './abstract-http-adapter.class';
 
 @Injectable()
-export class HttpBaseService extends HttpFactoryClass {
+export class HttpAdapterService extends AbstractHttpAdapter {
   constructor(
     private readonly _httpService: HttpService,
     private readonly _configService: ConfigService

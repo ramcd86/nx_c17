@@ -1,0 +1,89 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 50,
+    "uuid": "7GNq0jOgaN086",
+    "slug": "augur-rep",
+    "symbol": "REP",
+    "name": "Augur",
+    "description": "Augur is a prediction market that makes use of the Ethereum blockchain. Its ERC20 token REP is used as a value layer for incentivization and payments inside the system.",
+    "color": "#5f2652",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/H1GlZLd_Z/rep.svg",
+    "websiteUrl": "https://augur.net/",
+    "socials": [],
+    "links": [
+      { "name": "augur.net", "type": "website", "url": "https://augur.net/" },
+      {
+        "name": "augur",
+        "url": "https://twitter.com/augur",
+        "type": "twitter"
+      },
+      {
+        "name": "r/augur",
+        "url": "https://www.reddit.com/r/augur/",
+        "type": "reddit"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/channel/ucnqrwiwit8exlegltajjhiq",
+        "type": "youtube"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/augurproject",
+        "type": "facebook"
+      },
+      {
+        "name": "augurproject",
+        "url": "https://github.com/augurproject",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 185,
+    "numberOfExchanges": 87,
+    "type": "coin",
+    "volume": 33447925,
+    "marketCap": 201087717,
+    "price": "31.5501319105",
+    "circulatingSupply": 6373593.5446431935,
+    "totalSupply": 6373593.5446431935,
+    "approvedSupply": true,
+    "firstSeen": 1475539200000,
+    "listedAt": 1475539200,
+    "change": 9.92,
+    "rank": 190,
+    "history": [
+      "28.7035601135",
+      "28.5235069326",
+      "29.7729962783",
+      "30.8656697246",
+      "30.6461774932",
+      "29.3265496561",
+      "29.3670889183",
+      "29.5676673861",
+      "29.9755316028",
+      "30.1151105127",
+      "30.2222804338",
+      "30.7753201091",
+      "31.206869278",
+      "31.5488615184",
+      "31.7787925553",
+      "32.0323338468",
+      "32.2765689338",
+      "30.7372274731",
+      "30.7964059405",
+      "30.7000829754",
+      "31.2841542474",
+      "31.3311648953",
+      "31.636549194",
+      "31.8157979509",
+      "30.9031787059",
+      "31.4251002769",
+      "31.5501319105"
+    ],
+    "allTimeHigh": { "price": "108.1669740659604", "timestamp": 1515801600000 },
+    "penalty": false
+  }
+}

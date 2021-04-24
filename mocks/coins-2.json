@@ -1,0 +1,139 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 2,
+    "uuid": "razxDUgYGNAdQ",
+    "slug": "ethereum-eth",
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "description": "<p>Ethereum (ETH) is a global, public decentralized blockchain designed to run peer-to-peer smart contracts. It allows developers to deploy all sorts of decentralized applications (Dapps), without the interference of third parties. Ethereum is also used for its own cryptocurrency ether. Ethereum is now the world’s second-most valued cryptocurrency platform.</p>\n<h3>The goal of Ethereum</h3>\n<p>Ethereum is created as a blockchain platform on which other applications could be built on top of. Most of the online services, businesses and enterprises are built on a centralized system of governance. Ethereum aims to decentralize the existing client-server model; servers and clouds are replaced by so-called nodes, run by volunteers from all over the world. Ethereum’s vision is that it would enable this same functionality to people anywhere around the world, enabling them to compete to offer services on top of this infrastructure.</p>\n<h3>Who built Ethereum</h3>\n<p>Ethereum was initially described in a white paper by Vitalik Buterin. In 2014, Buterin and the other co-founders launched a campaign where they sold ether (Ethereum tokens) to raise money to build their vision. Since the launch of the white paper in 2015, the platform has grown fast, and these days there are hundreds of developers involved.</p>",
+    "color": "#3C3C3D",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/rk4RKHOuW/eth.svg",
+    "websiteUrl": "https://www.ethereum.org",
+    "socials": [
+      {
+        "name": "ethereum",
+        "url": "https://twitter.com/ethereum",
+        "type": "twitter"
+      },
+      {
+        "name": "ethereum",
+        "url": "https://www.reddit.com/r/ethereum/",
+        "type": "reddit"
+      },
+      {
+        "name": "ethtrader",
+        "url": "https://www.reddit.com/r/ethtrader/",
+        "type": "reddit"
+      },
+      {
+        "name": "BitcoinTalk",
+        "url": "https://bitcointalk.org/index.php?topic=428589.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g",
+        "type": "youtube"
+      },
+      {
+        "name": "ethereumproject",
+        "url": "https://facebook.com/ethereumproject",
+        "type": "facebook"
+      },
+      {
+        "name": "ethereum",
+        "url": "https://github.com/ethereum",
+        "type": "github"
+      }
+    ],
+    "links": [
+      {
+        "name": "www.ethereum.org",
+        "type": "website",
+        "url": "https://www.ethereum.org"
+      },
+      {
+        "name": "ethereum",
+        "url": "https://twitter.com/ethereum",
+        "type": "twitter"
+      },
+      {
+        "name": "ethereum",
+        "url": "https://www.reddit.com/r/ethereum/",
+        "type": "reddit"
+      },
+      {
+        "name": "ethtrader",
+        "url": "https://www.reddit.com/r/ethtrader/",
+        "type": "reddit"
+      },
+      {
+        "name": "BitcoinTalk",
+        "url": "https://bitcointalk.org/index.php?topic=428589.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g",
+        "type": "youtube"
+      },
+      {
+        "name": "ethereumproject",
+        "url": "https://facebook.com/ethereumproject",
+        "type": "facebook"
+      },
+      {
+        "name": "ethereum",
+        "url": "https://github.com/ethereum",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 15613,
+    "numberOfExchanges": 335,
+    "type": "coin",
+    "volume": 28143258149,
+    "marketCap": 264352256051,
+    "price": "2295.7785739978",
+    "circulatingSupply": 115147104.79704417,
+    "totalSupply": 115598221.6865,
+    "approvedSupply": true,
+    "firstSeen": 1438905600000,
+    "listedAt": 1438905600,
+    "change": 3.26,
+    "rank": 2,
+    "history": [
+      "2223.2631281078",
+      "2209.3224413773",
+      "2262.1817463812",
+      "2304.0698378048",
+      "2295.4140686252",
+      "2253.5985855646",
+      "2262.7018879926",
+      "2291.4131596844",
+      "2336.1875513216",
+      "2334.0583114058",
+      "2314.7312071717",
+      "2353.398261799",
+      "2368.6021577089",
+      "2356.3267905717",
+      "2335.7142800055",
+      "2337.0720045143",
+      "2362.3593094012",
+      "2296.430734134",
+      "2287.7738545139",
+      "2291.5674665804",
+      "2324.5214348774",
+      "2331.4973365031",
+      "2332.113354343",
+      "2322.6969093617",
+      "2293.2353051512",
+      "2307.5193996693",
+      "2295.7785739978"
+    ],
+    "allTimeHigh": { "price": "2520.502004336118", "timestamp": 1619049600000 },
+    "penalty": false
+  }
+}

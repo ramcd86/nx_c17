@@ -1,0 +1,120 @@
+{
+  "base": { "symbol": "USD", "sign": "$" },
+  "coin": {
+    "id": 29,
+    "uuid": "bOm0xKUuDvCUu",
+    "slug": "qtum-qtum",
+    "symbol": "QTUM",
+    "name": "QTUM",
+    "description": "Qtum is a proof of stake blockchain platform that combines the bitcoin blockchain architecture with multiple virtual machines on top. This lets Qtum benefit from the resiliency, security and infrastructure of bitcoin while enabling decentralized applications and contracts suited for businesses.",
+    "color": "#2e9ad0",
+    "iconType": "vector",
+    "iconUrl": "https://cdn.coinranking.com/TByBVzFNq/qtum.svg",
+    "websiteUrl": "https://qtum.org/",
+    "socials": [
+      {
+        "name": "qtumofficial",
+        "url": "https://twitter.com/qtumofficial",
+        "type": "twitter"
+      },
+      {
+        "name": "r/qtum",
+        "url": "https://www.reddit.com/r/qtum/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1729359.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/qtumofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "qtumproject",
+        "url": "https://github.com/qtumproject/",
+        "type": "github"
+      }
+    ],
+    "links": [
+      { "name": "qtum.org", "type": "website", "url": "https://qtum.org/" },
+      {
+        "name": "Staking guide",
+        "url": "https://www.stakingrewards.com/asset/qtum",
+        "type": "website"
+      },
+      {
+        "name": "qtumofficial",
+        "url": "https://twitter.com/qtumofficial",
+        "type": "twitter"
+      },
+      {
+        "name": "r/qtum",
+        "url": "https://www.reddit.com/r/qtum/",
+        "type": "reddit"
+      },
+      {
+        "name": "Bitcoin Talk",
+        "url": "https://bitcointalk.org/index.php?topic=1729359.0",
+        "type": "bitcointalk"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/qtumofficial/",
+        "type": "facebook"
+      },
+      {
+        "name": "qtumproject",
+        "url": "https://github.com/qtumproject/",
+        "type": "github"
+      }
+    ],
+    "confirmedSupply": true,
+    "numberOfMarkets": 291,
+    "numberOfExchanges": 102,
+    "type": "coin",
+    "volume": 1112950748,
+    "marketCap": 1322619891,
+    "price": "12.7982078938",
+    "circulatingSupply": 103344148,
+    "totalSupply": 103344148,
+    "approvedSupply": true,
+    "firstSeen": 1489708800000,
+    "listedAt": 1489708800,
+    "change": 8.74,
+    "rank": 78,
+    "history": [
+      "11.7691968457",
+      "11.5269985856",
+      "11.9543003298",
+      "12.5250153954",
+      "12.4502151701",
+      "12.0136626405",
+      "12.1090514014",
+      "12.1530518447",
+      "12.3095140607",
+      "12.3792530223",
+      "12.4646871116",
+      "12.6752376814",
+      "12.7887540348",
+      "12.7714608914",
+      "12.5626135382",
+      "12.6534919662",
+      "12.9844301808",
+      "12.5142037199",
+      "12.5051069888",
+      "12.5450602197",
+      "12.8166648353",
+      "12.8086235578",
+      "12.935706325",
+      "13.1029489112",
+      "12.808618115",
+      "12.95481714",
+      "12.7982078938"
+    ],
+    "allTimeHigh": { "price": "86.92131265636925", "timestamp": 1515369600000 },
+    "penalty": false
+  }
+}
