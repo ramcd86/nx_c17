@@ -42,6 +42,7 @@ export class HttpAdapterService extends AbstractHttpAdapter {
   }
 
   async getCoinData(): Promise<ICoinQuery> {
+    console.log('!')
     return this._httpService
       .get(
         `https://${

@@ -6,9 +6,10 @@ import {
 } from '@angular/router';
 import { HttpService } from '../../modules/shared/httpservice.service';
 import { ICoinAhead } from '@workspace/api-interfaces';
+import { interval, Observable, timer } from 'rxjs';
 
 export interface IHomePageRoute {
-  coinAhead: ICoinAhead[];
+  coinAhead: Observable<ICoinAhead[]>;
   message?: string;
 }
 
@@ -22,12 +23,8 @@ export class HomePageResolver implements Resolve<IHomePageRoute> {
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): Promise<IHomePageRoute> {
-    const coinAhead: ICoinAhead[] = await this._httpService
-      .getCoinTypeAheadValues()
-      .toPromise();
-
     return {
-      coinAhead: coinAhead,
+      coinAhead: this._httpService.getCoinTypeAheadValues(),
       message: 'resolver works!',
     };
   }

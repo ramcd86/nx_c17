@@ -1,26 +1,46 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges,
+} from '@angular/core';
 import { ICoinAhead } from '@workspace/api-interfaces';
+import { interval, Observable, Subscription, timer } from 'rxjs';
+import { startWith, switchMap } from 'rxjs/operators';
 
 @Component({
   selector: 'workspace-typeahead',
   templateUrl: './typeahead.component.html',
   styleUrls: ['./typeahead.component.scss'],
 })
-export class TypeaheadComponent {
-  @Input() coinsAhead: ICoinAhead[] = [];
+export class TypeaheadComponent implements OnInit {
+  @Input() coinsAhead: Observable<ICoinAhead[]>;
+  private incomingCoins: ICoinAhead[] = [];
+  private input = '';
   public matchingCoins: ICoinAhead[] = [];
-
-  @Output() selectedCoinId: EventEmitter<number> = new EventEmitter<number>()
+  @Output() selectedCoinId: EventEmitter<number> = new EventEmitter<number>();
 
   constructor() {}
 
-  inputChange($event: any) {
-    if ($event.target.value.length > 2) {
+  ngOnInit() {
+    this.coinsAhead.subscribe((res: ICoinAhead[]) => {
+      console.log('res', res)
+      this.incomingCoins = res;
+      this.updateQueriedCoinData();
+    });
+  }
+
+  updateQueriedCoinData() {
+    if (this.input.length > 2) {
       this.matchingCoins = [];
-      this.coinsAhead.forEach((coin) => {
+
+      this.incomingCoins.forEach((coin) => {
         if (
-          (coin.name.toLowerCase().includes($event.target.value) ||
-            coin.symbol.toLowerCase().includes($event.target.value)) &&
+          (coin.name.toLowerCase().includes(this.input) ||
+            coin.symbol.toLowerCase().includes(this.input)) &&
           this.matchingCoins.length < 5
         ) {
           this.matchingCoins.push(coin);
@@ -30,5 +50,10 @@ export class TypeaheadComponent {
       this.matchingCoins = [];
     }
     this.matchingCoins.sort();
+  }
+
+  inputChange($event: any) {
+    this.input = $event.target.value;
+    this.updateQueriedCoinData();
   }
 }

@@ -1,18 +1,36 @@
-
 import { Inject, Injectable } from '@angular/core';
 import { BASE_URL } from '../../app.tokens';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { from, interval, Observable, timer } from 'rxjs';
 import { ICoinAhead } from '@workspace/api-interfaces';
+import { concatMap, startWith, switchMap } from 'rxjs/operators';
 
 @Injectable()
 export class HttpService {
-  constructor(@Inject(BASE_URL) private baseUrl: string,
-  private _http: HttpClient) {}
-
+  constructor(
+    @Inject(BASE_URL) private baseUrl: string,
+    private _http: HttpClient
+  ) {}
 
   getCoinTypeAheadValues(): Observable<ICoinAhead[]> {
-    return this._http.get<ICoinAhead[]>(this.baseUrl + '/coins-ahead')
-  }
 
+
+    return interval(5000)
+      .pipe(startWith(0))
+      .pipe(
+        switchMap(() =>
+          from(
+            fetch(this.baseUrl + '/coins-ahead').then(
+              (res) => res.json() as Promise<ICoinAhead[]>
+            )
+          )
+        )
+      );
+    //
+    // interval(2500)
+    //   .pipe(startWith(0))
+    //   .pipe(switchMap(() => this._http.get(this.baseUrl + '/coins-ahead'))
+    //   )
+
+  }
 }
