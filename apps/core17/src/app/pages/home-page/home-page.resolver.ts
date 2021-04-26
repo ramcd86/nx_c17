@@ -4,7 +4,7 @@ import {
   Resolve,
   RouterStateSnapshot,
 } from '@angular/router';
-import { HttpService } from '../../modules/shared/httpservice.service';
+import { HttpService } from '../../modules/shared/http-service.service';
 import { ICoinAhead } from '@workspace/api-interfaces';
 import { interval, Observable, timer } from 'rxjs';
 

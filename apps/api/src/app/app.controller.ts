@@ -7,22 +7,28 @@ import {
 } from '@workspace/api-interfaces';
 import { AbstractHttpAdapter } from './services/abstract-http-adapter.class';
 import { mockUpdater } from './services/mock-http-adapter.service';
-const fs = require('fs');
 
 @Controller()
 export class AppController {
   constructor(
     @Inject('httpBase') readonly _httpBaseService: AbstractHttpAdapter
   ) {
-    if (process.env.IS_PRODUCTION === "false") {
+    if (process.env.IS_PRODUCTION === 'false') {
       console.log('MOCK UPDATER STARTED!');
       mockUpdater();
     }
   }
 
-  @Get('coin/:id')
+  @Get('config')
+  getConfig(): { serverTick: number } {
+    return {
+      serverTick: +process.env.SERVER_TICK,
+    };
+  }
+
+  @Get('coin/:Uuid')
   async getSingleQuery(@Param() params): Promise<ISimpleStockQuery> {
-    return this._httpBaseService.getSingleSimpleStockData(+params.id);
+    return this._httpBaseService.getSingleSimpleStockData(params.Uuid);
   }
 
   @Get('coins')
@@ -41,6 +47,7 @@ export class AppController {
           name: individualCoin.name,
           price: individualCoin.price,
           rank: individualCoin.rank,
+          uuid: individualCoin.uuid,
         })
       );
     });

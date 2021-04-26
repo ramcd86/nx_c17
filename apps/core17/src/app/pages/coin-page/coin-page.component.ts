@@ -1,7 +1,8 @@
 import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ICoinPageRoute } from './coin-page.resolver';
-import { map, tap } from 'rxjs/operators';
+import { combineAll, combineLatest, concatMap, map, tap } from 'rxjs/operators';
+import { merge, Observable } from 'rxjs';
 
 @Component({
   selector: 'workspace-coin-page',

@@ -2,27 +2,30 @@ import { Injectable } from '@angular/core';
 import {
   ActivatedRouteSnapshot,
   Resolve,
-  Router,
   RouterStateSnapshot,
 } from '@angular/router';
 import { Observable } from 'rxjs';
+import { HttpService } from '../../modules/shared/http-service.service';
+import { ISimpleStockQuery } from '@workspace/api-interfaces';
 
 export interface ICoinPageRoute {
-  coinId: {
-    id: string;
-  };
+  selectedCoin: Observable<ISimpleStockQuery>;
 }
 
 @Injectable({
   providedIn: 'root',
 })
 export class CoinPageResolver implements Resolve<ICoinPageRoute> {
-  resolve(
+  constructor(private _httpService: HttpService) {}
+
+  async resolve(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
-  ): Observable<ICoinPageRoute> | Promise<ICoinPageRoute> | any {
+  ): Promise<ICoinPageRoute> {
+    const params = { id: route.params['id'], uuid: route.params['uuid'] };
+
     return {
-      coinId: route.params,
+      selectedCoin: this._httpService.getSingleCoin(params.uuid),
     };
   }
 }

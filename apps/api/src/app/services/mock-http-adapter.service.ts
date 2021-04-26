@@ -70,7 +70,7 @@ export function mockUpdater() {
     });
 
     console.log('Mocks updated');
-  }, 2500);
+  }, +process.env.SERVER_TICK);
 }
 
 @Injectable()
@@ -78,25 +78,28 @@ export class MockHttpAdapterService extends AbstractHttpAdapter {
   constructor() {
     super();
   }
+  
+  async getSingleSimpleStockData(
+    stockUuid = 'Qwsogvtv82FCd'
+  ): Promise<ISimpleStockQuery> {
+    console.log('getSingleSimpleStockData() pinged.');
 
-  getLocalHeaders(): ILocalRequestHeaders {
-    return {
-      'x-rapidapi-key': '',
-      'x-rapidapi-host': '',
-      useQueryString: true,
-    };
-  }
+    const coinList = JSON.parse(
+      fs.readFileSync(`./mocks/coins.json`, 'utf8')
+    ) as ICoinQuery;
 
-  async getSingleSimpleStockData(stockId = 1): Promise<ISimpleStockQuery> {
+    const coinId =
+      coinList.coins.findIndex((coin) => coin.uuid === stockUuid) + 1;
+
     return Promise.resolve(
       JSON.parse(
-        fs.readFileSync(`./mocks/coins-${stockId}.json`, 'utf8')
+        fs.readFileSync(`./mocks/coins-${coinId}.json`, 'utf8')
       ) as ISimpleStockQuery
     );
   }
 
   async getCoinData(): Promise<ICoinQuery> {
-    console.log('?')
+    console.log('getCoinData() pinged.');
     return Promise.resolve(
       JSON.parse(fs.readFileSync('./mocks/coins.json', 'utf8')) as ICoinQuery
     );

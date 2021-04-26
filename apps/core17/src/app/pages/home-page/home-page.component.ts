@@ -29,7 +29,8 @@ export class HomePageComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {}
 
-  navigateToCoin(id: number | string) {
-    this._router.navigate(['coin', id]);
+  navigateToCoin(idPair) {
+    const [coinId, universalId] = idPair;
+    this._router.navigate(['coin', coinId, universalId]);
   }
 }

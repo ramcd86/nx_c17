@@ -25,7 +25,7 @@
         <div *ngFor="let coin of this.matchingCoins">
           <div
             class="row typeahead-component__individual-coin-row"
-            (click)="selectedCoinId.emit(coin.id)"
+            (click)="selectedCoinId.emit([coin.id, coin.uuid])"
           >
             <div class="col-4">
               <i

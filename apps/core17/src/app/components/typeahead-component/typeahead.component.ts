@@ -21,13 +21,14 @@ export class TypeaheadComponent implements OnInit {
   private incomingCoins: ICoinAhead[] = [];
   private input = '';
   public matchingCoins: ICoinAhead[] = [];
-  @Output() selectedCoinId: EventEmitter<number> = new EventEmitter<number>();
+  @Output() selectedCoinId: EventEmitter<[number, string]> = new EventEmitter<
+    [number, string]
+  >();
 
   constructor() {}
 
   ngOnInit() {
     this.coinsAhead.subscribe((res: ICoinAhead[]) => {
-      console.log('res', res)
       this.incomingCoins = res;
       this.updateQueriedCoinData();
     });

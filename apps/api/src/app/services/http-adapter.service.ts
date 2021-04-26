@@ -18,20 +18,19 @@ export class HttpAdapterService extends AbstractHttpAdapter {
 
   getLocalHeaders(): ILocalRequestHeaders {
     return {
-      'x-rapidapi-key': this._configService.getConfig().requestHeaderAuth
+      'x-access-token': this._configService.getConfig().requestHeaderAuth
         .authKey,
-      'x-rapidapi-host': this._configService.getConfig().requestHeaderAuth
-        .authHostUrl,
-      useQueryString: true,
     };
   }
 
-  async getSingleSimpleStockData(stockId = 1): Promise<ISimpleStockQuery> {
+  async getSingleSimpleStockData(
+    stockUuid = 'Qwsogvtv82FCd'
+  ): Promise<ISimpleStockQuery> {
     return this._httpService
       .get(
         `https://${
           this._configService.getConfig().requestHeaderAuth.authHostUrl
-        }/coin/${stockId}`,
+        }/coin/${stockUuid}`,
         {
           method: 'get',
           headers: this.getLocalHeaders(),
@@ -42,7 +41,10 @@ export class HttpAdapterService extends AbstractHttpAdapter {
   }
 
   async getCoinData(): Promise<ICoinQuery> {
-    console.log('!')
+    await this.getSingleSimpleStockData().then((x) =>
+      console.log(x.coin.price)
+    );
+
     return this._httpService
       .get(
         `https://${
@@ -54,6 +56,9 @@ export class HttpAdapterService extends AbstractHttpAdapter {
         }
       )
       .toPromise()
-      .then((res) => res.data.data as ICoinQuery);
+      .then((res) => {
+        // console.log((res.data.data as ICoinQuery).coins[0].uuid)
+        return res.data.data as ICoinQuery;
+      });
   }
 }

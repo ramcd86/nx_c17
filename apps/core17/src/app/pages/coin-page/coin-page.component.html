@@ -1,3 +1,5 @@
-xxx<ng-container *ngIf="pageData$ | async as vm">
-  coin page, id: {{ vm.coinId.id }}
+1<ng-container *ngIf="pageData$ | async as vm">
+  <div *ngIf="vm.selectedCoin | async as baseSelectedCoin">
+    {{ baseSelectedCoin.coin.name }}
+  </div>
 </ng-container>

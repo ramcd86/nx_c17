@@ -1,5 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { Inject, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { TransferHttpCacheModule } from '@nguniversal/common';
@@ -36,7 +36,7 @@ import { CoinPageResolver } from './pages/coin-page/coin-page.resolver';
           pathMatch: 'full',
         },
         {
-          path: 'coin/:id',
+          path: 'coin/:id/:uuid',
           component: CoinPageComponent,
           resolve: { content: CoinPageResolver },
           pathMatch: 'full',
@@ -53,4 +53,6 @@ import { CoinPageResolver } from './pages/coin-page/coin-page.resolver';
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {}
+}
