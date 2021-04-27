@@ -78,7 +78,7 @@ export class MockHttpAdapterService extends AbstractHttpAdapter {
   constructor() {
     super();
   }
-  
+
   async getSingleSimpleStockData(
     stockUuid = 'Qwsogvtv82FCd'
   ): Promise<ISimpleStockQuery> {

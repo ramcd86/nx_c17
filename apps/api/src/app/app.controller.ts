@@ -1,9 +1,14 @@
-import { Controller, Get, Inject, Param } from '@nestjs/common';
+import { Body, Controller, Get, Inject, Param, Post } from '@nestjs/common';
+
+interface Ix {
+  y: string;
+}
 
 import {
   ICoinAhead,
-  ICoinQuery,
+  ICoinQuery, IRequestBody, ISimpleStockCoin,
   ISimpleStockQuery,
+  QueryBaseEnum
 } from '@workspace/api-interfaces';
 import { AbstractHttpAdapter } from './services/abstract-http-adapter.class';
 import { mockUpdater } from './services/mock-http-adapter.service';
@@ -24,6 +29,40 @@ export class AppController {
     return {
       serverTick: +process.env.SERVER_TICK,
     };
+  }
+
+  getGeneratedCoinsAhead(allCoins: ISimpleStockCoin[], attributesForSelection: Array<keyof ISimpleStockCoin>): ICoinAhead[] {
+    const builtCoinAhead: ICoinAhead[] = []
+    allCoins.forEach(coin => {
+      let queriedObject: ICoinAhead | {} = {}
+      attributesForSelection.forEach(attribute => {
+        queriedObject[attribute] = coin[attribute]
+      })
+      console.log('queriedObject', queriedObject)
+      builtCoinAhead.push(queriedObject as ICoinAhead)
+      queriedObject = {};
+    })
+    return builtCoinAhead;
+  }
+
+  @Post('query')
+  async getGeneralQuery(@Body() body: IRequestBody) {
+    console.log('body', body);
+
+    const allCoins: ICoinQuery = await this._httpBaseService.getCoinData();
+
+    switch (body.queryType) {
+      case QueryBaseEnum.GetCoinsAhead:
+        return this.getGeneratedCoinsAhead(allCoins.coins, body.returnAttributes as Array<keyof ISimpleStockCoin>)
+      case QueryBaseEnum.GetCoins:
+        return {
+
+        }
+      case QueryBaseEnum.GetSingleCoin:
+        return {
+
+        }
+    }
   }
 
   @Get('coin/:Uuid')

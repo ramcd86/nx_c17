@@ -1,4 +1,4 @@
-import { ISimpleStockBase, ISimpleStockCoin } from '@workspace/api-interfaces';
+import { ISimpleStockBase, ISimpleStockCoin, QueryBaseEnum } from '@workspace/api-interfaces';
 
 export interface ICoinQuery {
   stats: ICoinQueryStats;
@@ -25,4 +25,18 @@ export interface ICoinAhead {
   price: string;
   rank: number;
   uuid: string;
+}
+
+export type RequestType = 'POST' | 'GET' | 'PUT' | 'DELETE';
+
+export interface IRequestBody {
+  queryType: QueryBaseEnum;
+  withValues?: {
+    name: string;
+    uuid: string;
+  }
+  returnAttributes:
+    | Array<keyof ISimpleStockCoin>
+    | Array<keyof ISimpleStockCoin[]>
+    | Array<keyof ICoinQuery>;
 }

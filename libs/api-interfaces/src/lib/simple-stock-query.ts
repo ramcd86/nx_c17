@@ -21,39 +21,38 @@ export interface ISimpleStockAllTimeHigh {
 }
 
 export interface ISimpleStockCoin {
-  id: number;
-  uuid: string;
-  slug: string;
-  symbol: string;
-  name: string;
-  description: string;
-  color: string;
-  iconType: string;
-  iconUrl: string;
-  websiteUrl: string;
-  socials: ISimpleStockSocial[];
-  links: ISimpleStockLink[];
-  confirmedSupply: boolean;
-  numberOfMarkets: number;
-  numberOfExchanges: number;
-  type: string;
-  volume: number;
-  marketCap: number;
-  price: string;
-  circulatingSupply: number;
-  totalSupply: number;
-  approvedSupply: boolean;
-  firstSeen: number;
-  listedAt: number;
-  change: number;
-  rank: number;
-  history: string[];
-  allTimeHigh: ISimpleStockAllTimeHigh;
-  penalty: boolean;
+  id?: number;
+  uuid?: string;
+  slug?: string;
+  symbol?: string;
+  name?: string;
+  description?: string;
+  color?: string;
+  iconType?: string;
+  iconUrl?: string;
+  websiteUrl?: string;
+  socials?: ISimpleStockSocial[];
+  links?: ISimpleStockLink[];
+  confirmedSupply?: boolean;
+  numberOfMarkets?: number;
+  numberOfExchanges?: number;
+  type?: string;
+  volume?: number;
+  marketCap?: number;
+  price?: string;
+  circulatingSupply?: number;
+  totalSupply?: number;
+  approvedSupply?: boolean;
+  firstSeen?: number;
+  listedAt?: number;
+  change?: number;
+  rank?: number;
+  history?: string[];
+  allTimeHigh?: ISimpleStockAllTimeHigh;
+  penalty?: boolean;
 }
 
 export interface ISimpleStockQuery {
   base: ISimpleStockBase;
   coin: ISimpleStockCoin;
 }
-
