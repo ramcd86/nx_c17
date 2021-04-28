@@ -8,21 +8,42 @@
         ></workspace-typeahead>
       </div>
     </div>
-
-    <div class="home-page__landing row">
-      <div class="col-6 mt-3 mb-3">
-        <i class="fa fa-bar-chart" aria-hidden="true"></i>
-      </div>
-      <div class="col-6 mt-3 mb-3 text-center">
-        <span>Welcome to <i class="fa fa-rocket" aria-hidden="true" data-tooltip="TO THE MOON!"></i>STOCKY!</span>
-        <div class="borders row">
-          <div class="col-12"><strong>Your source for Crypto market statistics.</strong></div>
+    <div class="home-page__landing mt-3 mb-3">
+      <div class="home-page__landing--overlay">
+        <div class="row">
+          <div class="home-page__currencies col-6">
+            <i class="fa fa-btc" aria-hidden="true"></i>
+            <i class="fa fa-eur" aria-hidden="true"></i>
+            <i class="fa fa-gbp" aria-hidden="true"></i>
+            <i class="fa fa-gg" aria-hidden="true"></i>
+            <i class="fa fa-ils" aria-hidden="true"></i>
+            <i class="fa fa-inr" aria-hidden="true"></i>
+            <i class="fa fa-jpy" aria-hidden="true"></i>
+            <i class="fa fa-krw" aria-hidden="true"></i>
+            <i class="fa fa-rub" aria-hidden="true"></i>
+            <i class="fa fa-usd" aria-hidden="true"></i>
+            <i class="fa fa-viacoin" aria-hidden="true"></i>
+            <i class="fa fa-try" aria-hidden="true"></i>
+          </div>
+          <div class="home-page__currencies-side col-6">
+            <span>Welcome to </span>
+            <span>STOCKY</span>
+            <span>Your #1 source for Crypto currency market data.</span>
+          </div>
         </div>
       </div>
     </div>
+    <div class="home-page__top-6 mt-3 mb-3" *ngIf="vm.coinAhead | async as coins">
+      <div class="row">
+        <div class="col-12 mt-5 mb-3 text-center"><h2 class="text-shadow"><i class="fa fa-rocket" aria-hidden="true" data-tooltip="TO THE MOON!"></i> The most valuable Cryptos right now!</h2></div>
 
-    <div class="row">
-      <div class="borders col-12 mt-3 mb-3"></div>
+        <div class="col-6 mt-3 mb-3" *ngFor="let singleCoin of coins | slice:0:6;">
+          <div class="borders">
+            {{singleCoin.rank}}: {{singleCoin.name}}, {{singleCoin.price}}
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 

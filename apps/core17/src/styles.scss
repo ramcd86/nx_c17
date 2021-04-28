@@ -11,13 +11,15 @@ html {
   color: $midnight;
 }
 
-i {
-  &:not(.fa-rocket) {
-    cursor: unset;
+i .fa-rocket {
+  :hover:after {
+    display: none !important;
   }
-  position: relative;
+}
 
-  &:hover:after:not(.fa-rocket) {
+i {
+  position: relative;
+  &:not(.fa-rocket, .fa-btc, .fa-eur, .fa-gbp, .fa-gg, .fa-ils, .fa-inr, .fa-jpy, .fa-krw, .fa-rub, .fa-usd, .fa-viacoin, .fa-try):hover:after {
     color: $midnight;
     @include box-borders();
     font-family: 'Montserrat', sans-serif;
@@ -27,7 +29,7 @@ i {
     display: block;
     content: attr(data-tooltip);
     position: absolute;
-    top: 1.6rem;
+    top: 2rem;
     left: 0;
     z-index: 999;
     border-bottom: 1px solid $purple !important;
@@ -36,6 +38,11 @@ i {
 
 .borders {
   @include box-borders();
+}
+
+.text-shadow {
+  text-shadow: 0 7px 15px rgba(255, 218, 185, 0.1),
+  0 7px 15px rgba(7, 59, 76, 0.1);
 }
 
 .midnight {
