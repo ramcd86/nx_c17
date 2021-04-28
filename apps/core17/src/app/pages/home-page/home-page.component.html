@@ -1,16 +1,29 @@
 <ng-container *ngIf="pageData$ | async as vm">
-  <div class="row">
-    <div class="col-12">
-      <workspace-typeahead
-        [coinsAhead]="vm.coinAhead"
-        (selectedCoinId)="navigateToCoin($event)"
-      ></workspace-typeahead>
+  <div class="home-page">
+    <div class="row">
+      <div class="col-12">
+        <workspace-typeahead
+          [coinsAhead]="vm.coinAhead"
+          (selectedCoinId)="navigateToCoin($event)"
+        ></workspace-typeahead>
+      </div>
+    </div>
+
+    <div class="home-page__landing row">
+      <div class="col-6 mt-3 mb-3">
+        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+      </div>
+      <div class="col-6 mt-3 mb-3 text-center">
+        <span>Welcome to <i class="fa fa-rocket" aria-hidden="true" data-tooltip="TO THE MOON!"></i>STOCKY!</span>
+        <div class="borders row">
+          <div class="col-12"><strong>Your source for Crypto market statistics.</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="borders col-12 mt-3 mb-3"></div>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-12">
-      yes
-    </div>
-  </div>
 </ng-container>

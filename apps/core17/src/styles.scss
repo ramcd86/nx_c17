@@ -12,8 +12,13 @@ html {
 }
 
 i {
+  &:not(.fa-rocket) {
+    cursor: unset;
+  }
   position: relative;
-  &:hover:after {
+
+  &:hover:after:not(.fa-rocket) {
+    color: $midnight;
     @include box-borders();
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -24,8 +29,13 @@ i {
     position: absolute;
     top: 1.6rem;
     left: 0;
-    z-index: 10;
+    z-index: 999;
+    border-bottom: 1px solid $purple !important;
   }
+}
+
+.borders {
+  @include box-borders();
 }
 
 .midnight {

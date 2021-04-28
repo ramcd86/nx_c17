@@ -1,7 +1,7 @@
 <div class="row typeahead-component">
   <div class="col-12 typeahead-component__coin-selection--loaded">
     <div class="row">
-      <div class="typeahead-component__coin-input col-12">
+      <div class="typeahead-component__coin-input col-3">
         <label>
           <i class="fa fa-search" aria-hidden="true" data-tooltip="Search"></i>
           <input
@@ -12,10 +12,11 @@
           />
         </label>
       </div>
-    </div>
+      <div class="typeahead-component__coin-input col-9">
 
-    <div *ngIf="this.matchingCoins.length">
-      {{ this.matchingCoins[0].price }}
+        <span><i class="fa fa-bullseye" aria-hidden="true" data-tooltip="Matches"></i> {{this.matchingCoins.length}}</span>
+
+      </div>
     </div>
     <div
       *ngIf="this.matchingCoins.length"
@@ -23,9 +24,10 @@
     >
       <div class="typeahead-component__results-container">
         <div *ngFor="let coin of this.matchingCoins">
+          <a
+            [routerLink]="['/coin', coin.id, coin.uuid]">
           <div
             class="row typeahead-component__individual-coin-row"
-            (click)="selectedCoinId.emit([coin.id, coin.uuid])"
           >
             <div class="col-4">
               <i
@@ -41,7 +43,7 @@
                 aria-hidden="true"
                 data-tooltip="Price"
               ></i>
-              {{ coin.price }}
+              {{ parseCoinFloat(coin.price) }}
             </div>
             <div class="col-4">
               <i
@@ -52,6 +54,7 @@
               {{ coin.rank }}
             </div>
           </div>
+          </a>
         </div>
       </div>
     </div>

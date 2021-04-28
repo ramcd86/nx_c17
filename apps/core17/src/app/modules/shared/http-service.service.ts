@@ -4,9 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { from, interval, Observable } from 'rxjs';
 import {
   ICoinAhead,
-  ICoinQuery,
   ISimpleStockCoin,
-  ISimpleStockQuery,
   QueryBaseEnum,
   RequestType,
   IRequestBody
@@ -40,8 +38,7 @@ export class HttpService {
     };
   }
 
-  getCoinTypeAheadValues(): Observable<ICoinAhead[]> {
-
+  getCoinTypeAheadValues(): Observable<ISimpleStockCoin[]> {
     const makeQuery = () =>
       HttpService.queryConstructor<IRequestBody>(
         {
@@ -57,8 +54,6 @@ export class HttpService {
         },
         'POST'
       );
-
-
     return interval(this.serverTick)
       .pipe(startWith(0))
       .pipe(
@@ -72,14 +67,34 @@ export class HttpService {
       );
   }
 
-  getSingleCoin(uuid: string): Observable<ISimpleStockQuery> {
+  getSingleCoin(uuid: string): Observable<ISimpleStockCoin> {
+    const makeQuery = () =>
+      HttpService.queryConstructor<IRequestBody>(
+        {
+          queryType: QueryBaseEnum.GetSingleCoin,
+          withValues: {
+            uuid: uuid
+          },
+          returnAttributes: [
+            'id',
+            'symbol',
+            'name',
+            'price',
+            'rank',
+            'uuid',
+            'history',
+            'description'
+          ],
+        },
+        'POST'
+      );
     return interval(this.serverTick)
       .pipe(startWith(0))
       .pipe(
         switchMap(() =>
           from(
-            fetch(this.baseUrl + '/coin/' + uuid).then(
-              (res) => res.json() as Promise<ISimpleStockQuery>
+            fetch(this.baseUrl + '/query', makeQuery()).then(
+              (res) => res.json() as Promise<ISimpleStockCoin>
             )
           )
         )

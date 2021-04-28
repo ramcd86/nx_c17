@@ -27,4 +27,8 @@ export class CoinPageComponent implements OnInit, OnChanges {
   ngOnInit(): void {}
 
   ngOnChanges(changes: SimpleChanges) {}
+
+  parseCoinFloat(price: string) {
+    return parseFloat((+price).toFixed(3))
+  }
 }

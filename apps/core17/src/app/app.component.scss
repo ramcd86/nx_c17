@@ -8,6 +8,13 @@
       font-weight: 900;
       text-shadow: 0 7px 15px rgba(255, 218, 185, 0.1),
         0 7px 15px rgba(7, 59, 76, 0.1);
+      a {
+        text-decoration: none;
+        color: $midnight;
+        &:hover {
+          color: $purple;
+        }
+      }
     }
   }
 }

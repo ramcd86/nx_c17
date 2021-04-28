@@ -13,12 +13,23 @@
       font-size: 2rem;
     }
     input {
+      display: inline-block;
+      width: 90%;
       outline: 0;
       border: 0px;
       font-size: 2rem;
       color: $midnight;
       background-color: transparent;
       padding-left: 1rem;
+    }
+    span {
+      color: $midnight-pale;
+      display: inline-block;
+      i {
+        font-size: 1rem;
+      }
+      padding-top: 1rem;
+     font-size: 1rem;
     }
   }
   &__results-wrapper {
@@ -31,6 +42,10 @@
     left: 0;
     z-index: 1;
     @include box-borders();
+    a {
+      text-decoration: none;
+      color: $midnight;
+    }
   }
   &__individual-coin-row {
     margin: {

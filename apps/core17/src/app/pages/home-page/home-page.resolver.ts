@@ -5,11 +5,11 @@ import {
   RouterStateSnapshot,
 } from '@angular/router';
 import { HttpService } from '../../modules/shared/http-service.service';
-import { ICoinAhead } from '@workspace/api-interfaces';
-import { interval, Observable, timer } from 'rxjs';
+import { ISimpleStockCoin } from '@workspace/api-interfaces';
+import { Observable } from 'rxjs';
 
 export interface IHomePageRoute {
-  coinAhead: Observable<ICoinAhead[]>;
+  coinAhead: Observable<ISimpleStockCoin[]>;
   message?: string;
 }
 

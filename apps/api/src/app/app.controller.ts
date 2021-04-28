@@ -31,37 +31,39 @@ export class AppController {
     };
   }
 
-  getGeneratedCoinsAhead(allCoins: ISimpleStockCoin[], attributesForSelection: Array<keyof ISimpleStockCoin>): ICoinAhead[] {
-    const builtCoinAhead: ICoinAhead[] = []
+  private getGeneratedCoinsAhead(allCoins: ISimpleStockCoin[], attributesForSelection: Array<keyof ISimpleStockCoin>): ISimpleStockCoin[] {
+    const builtCoinAhead: ISimpleStockCoin[] = []
     allCoins.forEach(coin => {
       let queriedObject: ICoinAhead | {} = {}
       attributesForSelection.forEach(attribute => {
         queriedObject[attribute] = coin[attribute]
       })
-      console.log('queriedObject', queriedObject)
       builtCoinAhead.push(queriedObject as ICoinAhead)
       queriedObject = {};
     })
     return builtCoinAhead;
   }
 
+  private getGeneratedSingleCoin(allCoins: ISimpleStockCoin[], selectedCoinUuid: string ,attributesForSelection: Array<keyof ISimpleStockCoin>): ISimpleStockCoin {
+    const builtSingleCoin: ISimpleStockCoin | {} = {}
+    const selectedCoin = allCoins.find(coin => coin.uuid === selectedCoinUuid);
+    attributesForSelection.forEach(attribute => {
+      builtSingleCoin[attribute] = selectedCoin[attribute];
+    })
+    return builtSingleCoin;
+  }
+
+
   @Post('query')
   async getGeneralQuery(@Body() body: IRequestBody) {
-    console.log('body', body);
 
     const allCoins: ICoinQuery = await this._httpBaseService.getCoinData();
 
     switch (body.queryType) {
       case QueryBaseEnum.GetCoinsAhead:
         return this.getGeneratedCoinsAhead(allCoins.coins, body.returnAttributes as Array<keyof ISimpleStockCoin>)
-      case QueryBaseEnum.GetCoins:
-        return {
-
-        }
       case QueryBaseEnum.GetSingleCoin:
-        return {
-
-        }
+        return  this.getGeneratedSingleCoin(allCoins.coins, body.withValues.uuid, body.returnAttributes as Array<keyof ISimpleStockCoin>)
     }
   }
 

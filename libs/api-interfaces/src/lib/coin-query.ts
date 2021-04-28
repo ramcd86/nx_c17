@@ -32,8 +32,8 @@ export type RequestType = 'POST' | 'GET' | 'PUT' | 'DELETE';
 export interface IRequestBody {
   queryType: QueryBaseEnum;
   withValues?: {
-    name: string;
-    uuid: string;
+    name?: string;
+    uuid?: string;
   }
   returnAttributes:
     | Array<keyof ISimpleStockCoin>

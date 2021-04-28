@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'workspace-root',
@@ -7,9 +7,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  constructor(private _router: Router) {}
+  constructor(private _router: Router, private _activatedRoute: ActivatedRoute) {
+
+  }
 
   ngOnInit() {
-    this._router.navigate(['home']);
+    if (window.location.pathname === '/') {
+      this._router.navigate(['home']);
+    }
   }
 }

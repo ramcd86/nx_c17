@@ -6,10 +6,10 @@ import {
 } from '@angular/router';
 import { Observable } from 'rxjs';
 import { HttpService } from '../../modules/shared/http-service.service';
-import { ISimpleStockQuery } from '@workspace/api-interfaces';
+import { ISimpleStockCoin } from '@workspace/api-interfaces';
 
 export interface ICoinPageRoute {
-  selectedCoin: Observable<ISimpleStockQuery>;
+  selectedCoin: Observable<ISimpleStockCoin>;
 }
 
 @Injectable({

@@ -2,6 +2,7 @@
 
 @mixin box-borders {
   background-color: $white;
+  border-bottom: 1px solid $sunset;
   box-shadow: 0 7px 15px rgba(255, 218, 185, 0.066),
     0 7px 15px rgba(7, 59, 76, 0.066);
   border-radius: 0.5rem;

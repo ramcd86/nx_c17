@@ -7,7 +7,7 @@ import {
   Output,
   SimpleChanges,
 } from '@angular/core';
-import { ICoinAhead } from '@workspace/api-interfaces';
+import { ICoinAhead, ISimpleStockCoin } from '@workspace/api-interfaces';
 import { interval, Observable, Subscription, timer } from 'rxjs';
 import { startWith, switchMap } from 'rxjs/operators';
 
@@ -17,7 +17,7 @@ import { startWith, switchMap } from 'rxjs/operators';
   styleUrls: ['./typeahead.component.scss'],
 })
 export class TypeaheadComponent implements OnInit {
-  @Input() coinsAhead: Observable<ICoinAhead[]>;
+  @Input() coinsAhead: Observable<ISimpleStockCoin[]>;
   private incomingCoins: ICoinAhead[] = [];
   private input = '';
   public matchingCoins: ICoinAhead[] = [];
@@ -54,7 +54,11 @@ export class TypeaheadComponent implements OnInit {
   }
 
   inputChange($event: any) {
-    this.input = $event.target.value;
+    this.input = ($event.target.value as string).toLowerCase();
     this.updateQueriedCoinData();
+  }
+
+  parseCoinFloat(price: string) {
+    return parseFloat((+price).toFixed(3))
   }
 }

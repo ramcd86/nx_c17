@@ -1,5 +1,19 @@
-1<ng-container *ngIf="pageData$ | async as vm">
-  <div *ngIf="vm.selectedCoin | async as baseSelectedCoin">
-    {{ baseSelectedCoin.coin.name }}
+<ng-container *ngIf="pageData$ | async as vm">
+  <div *ngIf="vm.selectedCoin | async as coin">
+    <div class="row">
+      <div class="col-6">
+        {{ coin.name }}
+      </div>
+      <div class="col-6">
+        {{ parseCoinFloat(coin.price) }}
+      </div>
+      <div class="col-12" [innerHTML]="coin.description">
+
+      </div>
+    </div>
+    <div *ngFor="let history of coin.history">
+      {{parseCoinFloat(history)}}<br/>
+    </div>
   </div>
+
 </ng-container>
