@@ -19,12 +19,14 @@ export interface ICoinQueryStats {
 }
 
 export interface ICoinAhead {
-  id: number;
-  symbol: string;
-  name: string;
-  price: string;
-  rank: number;
-  uuid: string;
+  id?: number;
+  symbol?: string;
+  name?: string;
+  price?: string;
+  rank?: number;
+  uuid?: string;
+  history?: string[];
+  sparkline?: string[];
 }
 
 export type RequestType = 'POST' | 'GET' | 'PUT' | 'DELETE';

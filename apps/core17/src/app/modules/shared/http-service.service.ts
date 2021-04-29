@@ -7,7 +7,7 @@ import {
   ISimpleStockCoin,
   QueryBaseEnum,
   RequestType,
-  IRequestBody
+  IRequestBody,
 } from '@workspace/api-interfaces';
 import { startWith, switchMap } from 'rxjs/operators';
 
@@ -50,6 +50,8 @@ export class HttpService {
             'price',
             'rank',
             'uuid',
+            'history',
+            'sparkline'
           ],
         },
         'POST'
@@ -73,7 +75,7 @@ export class HttpService {
         {
           queryType: QueryBaseEnum.GetSingleCoin,
           withValues: {
-            uuid: uuid
+            uuid: uuid,
           },
           returnAttributes: [
             'id',
@@ -83,7 +85,7 @@ export class HttpService {
             'rank',
             'uuid',
             'history',
-            'description'
+            'description',
           ],
         },
         'POST'

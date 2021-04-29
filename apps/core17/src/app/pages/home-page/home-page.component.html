@@ -33,18 +33,66 @@
         </div>
       </div>
     </div>
-    <div class="home-page__top-6 mt-3 mb-3" *ngIf="vm.coinAhead | async as coins">
+    <div
+      class="home-page__top-6 mt-3 mb-3"
+      *ngIf="vm.coinAhead | async as coins"
+    >
       <div class="row">
-        <div class="col-12 mt-5 mb-3 text-center"><h2 class="text-shadow"><i class="fa fa-rocket" aria-hidden="true" data-tooltip="TO THE MOON!"></i> The most valuable Cryptos right now!</h2></div>
+        <div class="col-12 mt-5 mb-3 text-center">
+          <h2 class="text-shadow">
+            <i
+              class="fa fa-rocket"
+              aria-hidden="true"
+              data-tooltip="TO THE MOON!"
+            ></i>
+            The most valuable Cryptos right now!
+          </h2>
+        </div>
 
-        <div class="col-6 mt-3 mb-3" *ngFor="let singleCoin of coins | slice:0:6;">
-          <div class="borders">
-            {{singleCoin.rank}}: {{singleCoin.name}}, {{singleCoin.price}}
+        <div class="row">
+          <div
+            class="col-6 mt-3 mb-3"
+
+            *ngFor="let coin of this.historicals; let i = index"
+          >
+
+            {{coin.name}} {{coin.rank}}
+
+            <div class="borders">
+              <div style="width: calc(100%); height: 200px;">
+                <ngx-charts-bar-vertical
+                  [roundEdges]="true"
+                  [roundDomains]="false"
+                  [results]="this.topSixCoinData[i]"
+                  [animations]="true"
+                  [xAxisLabel]="coin.name"
+                  [legendTitle]="'Product Sale Chart'"
+                  [yAxisLabel]="'Price'"
+                  [legend]="false"
+                  [showXAxisLabel]="false"
+                  [showYAxisLabel]="false"
+                  [xAxis]="true"
+                  [yAxis]="false"
+                  [showDataLabel]="false"
+                  [tooltipDisabled]="false"
+                  [scheme]="{
+              domain: ['#032415']
+            }"
+                  [gradient]="false"
+                >
+                </ngx-charts-bar-vertical>
+              </div>
+            </div>
+
+
+
           </div>
         </div>
 
+
+
+        </div>
       </div>
     </div>
-  </div>
 
 </ng-container>

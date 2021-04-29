@@ -48,6 +48,7 @@ export interface ISimpleStockCoin {
   change?: number;
   rank?: number;
   history?: string[];
+  sparkline?: string[];
   allTimeHigh?: ISimpleStockAllTimeHigh;
   penalty?: boolean;
 }

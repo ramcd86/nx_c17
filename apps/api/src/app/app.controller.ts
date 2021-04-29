@@ -34,11 +34,11 @@ export class AppController {
   private getGeneratedCoinsAhead(allCoins: ISimpleStockCoin[], attributesForSelection: Array<keyof ISimpleStockCoin>): ISimpleStockCoin[] {
     const builtCoinAhead: ISimpleStockCoin[] = []
     allCoins.forEach(coin => {
-      let queriedObject: ICoinAhead | {} = {}
+      let queriedObject: ISimpleStockCoin | {} = {}
       attributesForSelection.forEach(attribute => {
         queriedObject[attribute] = coin[attribute]
       })
-      builtCoinAhead.push(queriedObject as ICoinAhead)
+      builtCoinAhead.push(queriedObject as ISimpleStockCoin)
       queriedObject = {};
     })
     return builtCoinAhead;

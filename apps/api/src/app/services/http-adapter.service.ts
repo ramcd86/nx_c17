@@ -41,10 +41,6 @@ export class HttpAdapterService extends AbstractHttpAdapter {
   }
 
   async getCoinData(): Promise<ICoinQuery> {
-    await this.getSingleSimpleStockData().then((x) =>
-      console.log(x.coin.price)
-    );
-
     return this._httpService
       .get(
         `https://${
@@ -57,7 +53,6 @@ export class HttpAdapterService extends AbstractHttpAdapter {
       )
       .toPromise()
       .then((res) => {
-        // console.log((res.data.data as ICoinQuery).coins[0].uuid)
         return res.data.data as ICoinQuery;
       });
   }
